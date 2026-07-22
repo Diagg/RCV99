@@ -95,9 +95,9 @@
     font-weight: bold;
     color: #e63946;
     white-space: nowrap;
+    text-align: right;
   }
   .titre {
-    text-align: right;
     font-weight: bold;
     font-size: 1.05em;
     color: #ffffff;
@@ -155,15 +155,15 @@
         <div class="panneau" id="panneau-{$pos}">
           <table class="programme">
             <xsl:for-each select="emission">
-              <tr class="ligne-titre">
-                <td class="heure"><xsl:value-of select="heure"/></td>
-                <td class="titre">
-                  <xsl:value-of select="titre"/>
-                  <xsl:if test="@frequence">
-                    <span class="frequence">(<xsl:value-of select="@frequence"/>)</span>
-                  </xsl:if>
-                </td>
-              </tr>
+               <tr class="ligne-titre">
+                 <td class="titre">
+                   <xsl:value-of select="titre"/>
+                   <xsl:if test="@frequence">
+                     <span class="frequence">(<xsl:value-of select="@frequence"/>)</span>
+                   </xsl:if>
+                 </td>
+                 <td class="heure"><xsl:value-of select="heure"/></td>
+               </tr>
               <xsl:if test="normalize-space(animateur) != ''">
                 <tr>
                   <td colspan="2" class="animateur"><xsl:value-of select="animateur"/></td>
