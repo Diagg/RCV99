@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="programmation.xsl"?>
+<programmation semaine="Programmation hebdomadaire">
+  <jour nom="Lundi">
+    <emission>
+      <heure>07:30</heure>
+      <titre>RCV IN FRENCH</titre>
+      <description>Selection francophone</description>
+      <animateur>Patrick (Belles Oreilles)</animateur>
+    </emission>
+    <emission>
+      <heure>08:00</heure>
+      <titre>DIG DIG DIGGERS</titre>
+      <description>L'émission musicale des radios FERAROCK</description>
+      <animateur>FERAROCK</animateur>
+    </emission>
+    <emission>
+      <heure>09:00</heure>
+      <titre>MORNING GLORY</titre>
+      <description>Playlist Folk, Rock Pop, Soul...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>12:00</heure>
+      <titre>BIG BAZOUNGA BOOGALOO</titre>
+      <description>une émission de Radio Béton à Tours</description>
+      <animateur>DJ Gilbert Nazal &amp; DJ Keke</animateur>
+    </emission>
+    <emission>
+      <heure>13:00</heure>
+      <titre>REPORTAGES REGIONAUX</titre>
+      <description>realises par les radios membres de la FRANF</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>14:00</heure>
+      <titre>SUNNY AFTERNOON</titre>
+      <description>Playlist Hip Hop, Global Groove, Electro...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>17:00</heure>
+      <titre>LES DERNIERES TENTATIONS DE ZEBRA</titre>
+      <description>Nouveautes musicales</description>
+      <animateur>DJ Zebra</animateur>
+    </emission>
+    <emission>
+      <heure>18:00</heure>
+      <titre>SCHNAPS UP?</titre>
+      <description>Actu Rock &amp; Metal, du local a l'International</description>
+      <animateur>Schnaps &amp; Ben</animateur>
+    </emission>
+    <emission>
+      <heure>19:00</heure>
+      <titre>HAVE A TRIP</titre>
+      <description>L'emission anti 'easy-listening'</description>
+      <animateur>Deekool</animateur>
+    </emission>
+    <emission frequence="1er et 3e lundi du mois">
+      <heure>21:30</heure>
+      <titre>HAPPY MONDAY</titre>
+      <description>L'emission Pop</description>
+      <animateur>Ivan, Remi &amp; Franck</animateur>
+    </emission>
+    <emission frequence="2eme et 4e lundi du mois">
+      <heure>21:30</heure>
+      <titre>PASS SONORE</titre>
+      <description>Une emission decalée mais sérieuse</description>
+      <animateur>Torero &amp; Tracks</animateur>
+    </emission>
+    <emission>
+      <heure>22:30</heure>
+      <titre>LA VIE DES MICROBES</titre>
+      <description>Agenda evenements underground</description>
+      <animateur>Stéphane</animateur>
+    </emission>
+    <emission>
+      <heure>23:30</heure>
+      <titre>PATTES DE VELOURS</titre>
+      <description>Selection musicale(une émission de SOL FM à Lyon)</description>
+      <animateur>Petit Pierre </animateur>
+    </emission>
+    <emission>
+      <heure>00:30</heure>
+      <titre>ENTER SANDMAN</titre>
+      <description>Playlist pour noctambules</description>
+      <animateur></animateur>
+    </emission>
+  </jour>
+  <jour nom="Mardi">
+    <emission>
+      <heure>07:30</heure>
+      <titre>RCV IN FRENCH</titre>
+      <description>Selection francophone (Belles Oreilles)</description>
+      <animateur>Patrick</animateur>
+    </emission>
+    <emission>
+      <heure>08:00</heure>
+      <titre>PLAYGROUND</titre>
+      <description>L'actualité indie rock/pop/folk</description>
+      <animateur>Phil Indie</animateur>
+    </emission>
+    <emission>
+      <heure>08:00</heure>
+      <titre>CULTUR'EMOI</titre>
+      <description>L'emission qui donne la parole a celles et ceux qui font, pensent et vivent la culture</description>
+      <animateur>Juliette</animateur>
+    </emission>
+    <emission>
+      <heure>09:30</heure>
+      <titre>MORNING GLORY</titre>
+      <description>Playlist Folk, Rock Pop, Soul...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>12:00</heure>
+      <titre>ROCKEZ BELLES OREILLES (R.B.O.)</titre>
+      <description>Roots &amp; Roll music (Belles Oreilles)</description>
+      <animateur>Patrick </animateur>
+    </emission>
+    <emission>
+      <heure>13:30</heure>
+      <titre>SUNNY AFTERNOON</titre>
+      <description>Playlist Hip Hop, Global Groove, Electro...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>17:00</heure>
+      <titre>FUNK YOUR HEAD</titre>
+      <description>Mix Afro Beat, Disco, Funk...</description>
+      <animateur>Housatonic</animateur>
+    </emission>
+    <emission>
+      <heure>18:00</heure>
+      <titre>WATTS UP?</titre>
+      <description>Actu musicale &amp; culturelle</description>
+      <animateur>Ben (le Taulier),Audrey «Rudy Cat» et Gael «le Druide»</animateur>
+    </emission>
+    <emission>
+      <heure>19:30</heure>
+      <titre>LES DENTS DANS LE SHAKER</titre>
+      <description>Post Punk/Cold Wave/Synth/Punk/Noise/Indus/EBM/SHoegaze/Experimental/Electronics/DnB/Jungle</description>
+      <animateur></animateur>
+    </emission>
+    <emission frequence="une semaine sur deux">
+      <heure>21:00</heure>
+      <titre>WOOD BLOCK</titre>
+      <description>Emission poetique et musicale</description>
+      <animateur>Olivier et ses invites</animateur>
+    </emission>
+    <emission frequence="une semaine sur deux">
+      <heure>21:00</heure>
+      <titre>LE PLAN ET LE SON</titre>
+      <description>Mara De Carva analyse un film d'auteur à travers l'image et la bande-son</description>
+      <animateur>Mara De Carva</animateur>
+    </emission>
+    <emission>
+      <heure>22:00</heure>
+      <titre>LIQUID BASS ROOM</titre>
+      <description>Sexy, Groovy, Funky, Liquid Drum &amp; Bass</description>
+      <animateur>Diagg</animateur>
+    </emission>
+    <emission>
+      <heure>23:00</heure>
+      <titre>TROU NOIR</titre>
+      <description>Rap, dub, lecture &amp; creation sonore (co-production PFM à Arras et RCV99)</description>
+      <animateur>Luc, Jeff Bibs et Romain</animateur>
+    </emission>
+    <emission frequence="1er mardi du mois">
+      <heure>23:00</heure>
+      <titre>NOMAD</titre>
+      <description>Simulateur de dérive urbaine</description>
+      <animateur>Kubebe et Lux Totema</animateur>
+    </emission>
+    <emission>
+      <heure>00:00</heure>
+      <titre>ECLEKTIK</titre>
+      <description>Un Espace Musical pour nous faire les temoins du Passe</description>
+      <animateur>Haka-Hata</animateur>
+    </emission>
+    <emission>
+      <heure>01:00</heure>
+      <titre>JAZZ ATTITUDE</titre>
+      <description>l'actualite du jazz</description>
+      <animateur>Sir Ali</animateur>
+    </emission>
+    <emission>
+      <heure>03:00</heure>
+      <titre>ENTER SANDMAN</titre>
+      <description>Playlist pour noctambules du Present et du Futur</description>
+      <animateur></animateur>
+    </emission>
+  </jour>
+  <jour nom="Mercredi">
+    <emission>
+      <heure>07:30</heure>
+      <titre>RCV IN FRENCH</titre>
+      <description>Selection francophone (Belles Oreilles)</description>
+      <animateur>Patrick </animateur>
+    </emission>
+    <emission>
+      <heure>08:00</heure>
+      <titre>LES Z'ENTONNOIRS</titre>
+      <description>Talk Show actu &amp; musiques par des patients et infirmiers en psychiatrie a Roubaix</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>09:00</heure>
+      <titre>MORNING GLORY</titre>
+      <description>Playlist Folk, Rock Pop, Soul...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>12:00</heure>
+      <titre>BAM BALAM</titre>
+      <description>Nouveautes et re-editions Pop &amp; Rock</description>
+      <animateur>Papy Bam</animateur>
+    </emission>
+    <emission>
+      <heure>13:30</heure>
+      <titre>SUNNY AFTERNOON</titre>
+      <description>Playlist Hip Hop, Global Groove, Electro...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>17:00</heure>
+      <titre>HOT99</titre>
+      <description>Mix Rap &amp; discussions</description>
+      <animateur>Dann Lee &amp; Friends</animateur>
+    </emission>
+    <emission>
+      <heure>18:00</heure>
+      <titre>CULTUR'EMOI</titre>
+      <description>l'émission qui donne la parole a celles et ceux qui font, pensent et vivent la culture</description>
+      <animateur>Juliette et ses invités</animateur>
+    </emission>
+    <emission>
+      <heure>18:00</heure>
+      <titre>REEELOAD</titre>
+      <description>Nouveautes Bass Music &amp; Electronic</description>
+      <animateur>Pelik</animateur>
+    </emission>
+    <emission>
+      <heure>19:30</heure>
+      <titre>SKUUURT</titre>
+      <description>l'emission Hip Hop sans langue de bois</description>
+      <animateur></animateur>
+    </emission>
+    <emission frequence="2eme et 4eme mercredi">
+      <heure>20:30</heure>
+      <titre>VINYLE ME</titre>
+      <description>Strictly Vinyl Radio Show</description>
+      <animateur>Joe Dahlin et ses invites</animateur>
+    </emission>
+    <emission frequence="1er et 3emercredi">
+      <heure>20:30</heure>
+      <titre>THE SPATEN PROJECT</titre>
+      <description>Nouveautes Rock, Hip Hop, Electro, Groove...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>21:35</heure>
+      <titre>SWING A LING SOUND</titre>
+      <description>Ska, Rocksteady, Reggae</description>
+      <animateur>Selector DDay</animateur>
+    </emission>
+    <emission>
+      <heure>23:35</heure>
+      <titre>L'AGE DU DIESEL (Une émission de SOL FM à Lyon)</titre>
+      <description>un theme, un mix ...</description>
+      <animateur>Joey Perfecto</animateur>
+    </emission>
+    <emission>
+      <heure>00:35</heure>
+      <titre>ENTER SANDMAN</titre>
+      <description>Playlist pour noctambules</description>
+      <animateur></animateur>
+    </emission>
+  </jour>
+  <jour nom="Jeudi">
+    <emission>
+      <heure>07:30</heure>
+      <titre>RCV IN FRENCH</titre>
+      <description>Sélection francophone (Belles Oreilles)</description>
+      <animateur>Patrick</animateur>
+    </emission>
+    <emission>
+      <heure>08:00</heure>
+      <titre>TRI SELECTIF</titre>
+      <description>Recyclage de disques mal aimés et de trésors oubliés (une émission de Canal B à Rennes)</description>
+      <animateur>Antoine</animateur>
+    </emission>
+    <emission>
+      <heure>09:00</heure>
+      <titre>MORNING GLORY</titre>
+      <description>Playlist Folk, Rock Pop, Soul...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>12:00</heure>
+      <titre>SPORTING CLUB</titre>
+      <description>Nouveautes &amp; Classics Global Groove</description>
+      <animateur>Zoymista</animateur>
+    </emission>
+    <emission>
+      <heure>13:30</heure>
+      <titre>SUNNY AFTERNOON</titre>
+      <description>Playlist Hip Hop, Global Groove, Electro...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>17:00</heure>
+      <titre>HAVE A TRAVEL</titre>
+      <description>Musiques d'ailleurs</description>
+      <animateur>Deekool</animateur>
+    </emission>
+    <emission>
+      <heure>18:00</heure>
+      <titre>WAGWAAANNN ?!</titre>
+      <description>L'agenda lillois des concerts et soirees du week-end</description>
+      <animateur>Djay &amp; Ben</animateur>
+    </emission>
+    <emission>
+      <heure>19:30</heure>
+      <titre>L'HEURE DU CRIME</titre>
+      <description>L'actu disques et concerts Métal en direct du Carre Des Halles</description>
+      <animateur>Stef Xtraks</animateur>
+    </emission>
+    <emission>
+      <heure>20:30</heure>
+      <titre>CRADLE ROCK</titre>
+      <description>Blues, Rock &amp; Southern Rock</description>
+      <animateur>Jean Cradle</animateur>
+    </emission>
+    <emission>
+      <heure>21:45</heure>
+      <titre>MEDLEY</titre>
+      <description>Blues, Boogie Rock, Anthologies 70's,Hard &amp; Heavy Rock, Metal</description>
+      <animateur>Phil et Dr70's</animateur>
+    </emission>
+    <emission>
+      <heure>00:00</heure>
+      <titre>HARD TIME MACHINE</titre>
+      <description>La machine a voyager dans le Hard Rock</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>01:00</heure>
+      <titre>ENTER SANDMAN</titre>
+      <description>Playlist pour noctambules</description>
+      <animateur></animateur>
+    </emission>
+  </jour>
+  <jour nom="Vendredi">
+    <emission>
+      <heure>07:30</heure>
+      <titre>RCV IN FRENCH</titre>
+      <description>Sélection francophone (Belles Oreilles)</description>
+      <animateur>Patrick </animateur>
+    </emission>
+    <emission>
+      <heure>08:00</heure>
+      <titre>DE LA LUMIERE AU GRENIER</titre>
+      <description>Tonton JC depoussiere ses Vinyles, CD et Cassettes venus des annees 60, 70, 80's et plus si affinite.</description>
+      <animateur>Tonton JC</animateur>
+    </emission>
+    <emission>
+      <heure>09:00</heure>
+      <titre>MORNING GLORY</titre>
+      <description>Playlist Folk, Rock Pop, Soul...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>12:00</heure>
+      <titre>WAGWAAANNN ?!</titre>
+      <description>L'agenda lillois des concerts et soirees du week-end</description>
+      <animateur>Djay &amp; Ben</animateur>
+    </emission>
+    <emission>
+      <heure>13:30</heure>
+      <titre>SUNNY AFTERNOON</titre>
+      <description>Playlist Hip Hop, Global Groove, Electro...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>17:00</heure>
+      <titre>SKUUURT</titre>
+      <description>L'émission Hip Hop sans langue de bois</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>18:00</heure>
+      <titre>WORLD WIDE RAP</titre>
+      <description>L'emission qui fait le tour du globe pour explorer la diversite du rap</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>19:30</heure>
+      <titre>FUNK YOUR HEAD</titre>
+      <description>Mix Afro Beat, Disco, Funk...</description>
+      <animateur>Housatonic</animateur>
+    </emission>
+    <emission>
+      <heure>20:30</heure>
+      <titre>EL REANIMATOR</titre>
+      <description>Rediffusions en hommage a Xavier (El Reanimator)</description>
+      <animateur>Xavier (El Reanimator)</animateur>
+    </emission>
+    <emission frequence="1er et 3eme vendredi">
+      <heure>22:00</heure>
+      <titre>NORTH BASS</titre>
+      <description>Actu, Talks &amp; mix bass music</description>
+      <animateur>Sloan, Acani, BLT et Cailla</animateur>
+    </emission>
+    <emission frequence="2e vendredi">
+      <heure>22:00</heure>
+      <titre>ANALOG MIND</titre>
+      <description>Techno mix &amp; talks</description>
+      <animateur></animateur>
+    </emission>
+    <emission frequence="dernier vendredi">
+      <heure>22:00</heure>
+      <titre>UNLIKE SESSIONS</titre>
+      <description>Dubstep, Grime &amp; U.K Beats</description>
+      <animateur>Hughes, Oneku &amp; Jaka</animateur>
+    </emission>
+    <emission frequence="le 1er vendredi du mois">
+      <heure>00:00</heure>
+      <titre>MARIAH CALAIS</titre>
+      <description>Que des tubes et des Go sûres !</description>
+      <animateur>DJ Cut Kebab &amp; Choucroute Selecta</animateur>
+    </emission>
+    <emission>
+      <heure>01:00</heure>
+      <titre>ENTER SANDMAN</titre>
+      <description>Playlist pour noctambules</description>
+      <animateur></animateur>
+    </emission>
+  </jour>
+  <jour nom="Samedi">
+    <emission>
+      <heure>06:00</heure>
+      <titre>MORNING GLORY</titre>
+      <description>Playlist Folk, Rock Pop, Soul...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>09:00</heure>
+      <titre>DE LA LUMIERE AU GRENIER</titre>
+      <description>Tonton JC depoussiere ses Vinyles, CD et Cassettes venus des annees 60, 70, 80's et plus si affinite.</description>
+      <animateur>Tonton JC</animateur>
+    </emission>
+    <emission>
+      <heure>10:00</heure>
+      <titre>LES DERNIERES TENTATIONS DE ZEBRA</titre>
+      <description>Nouveautés musicales</description>
+      <animateur>DJ Zebra</animateur>
+    </emission>
+    <emission>
+      <heure>11:00</heure>
+      <titre>HAVE A TRAVEL</titre>
+      <description>Musiques d'ailleurs</description>
+      <animateur>Deekool</animateur>
+    </emission>
+    <emission>
+      <heure>12:00</heure>
+      <titre>JAZZ ATTITUDE</titre>
+      <description>L'actualite du Jazz</description>
+      <animateur>Sir Ali</animateur>
+    </emission>
+    <emission>
+      <heure>14:00</heure>
+      <titre>SWING A LING SOUND</titre>
+      <description>Ska, Rocksteady, Reggae</description>
+      <animateur>Selector DDay</animateur>
+    </emission>
+    <emission>
+      <heure>16:00</heure>
+      <titre>LA VOIX DU HIP HOP</titre>
+      <description>Rap U.S &amp; Rap Francais</description>
+      <animateur>Ivy</animateur>
+    </emission>
+    <emission>
+      <heure>17:00</heure>
+      <titre>HOT99</titre>
+      <description>Mix Rap &amp; discussions</description>
+      <animateur>Dann Lee &amp; Friends</animateur>
+    </emission>
+    <emission>
+      <heure>18:00</heure>
+      <titre>SPORTING CLUB</titre>
+      <description>Nouveautes &amp; Classics Global Groove</description>
+      <animateur>Zoymista</animateur>
+    </emission>
+    <emission>
+      <heure>19:30</heure>
+      <titre>TOURNEE GENERALE</titre>
+      <description>Apéro électronique entre Acid mental, Techno planante et montees spirales</description>
+      <animateur>Sindy Looper</animateur>
+    </emission>
+    <emission>
+      <heure>20:30</heure>
+      <titre>MY FAVOURITE EVERYTHING</titre>
+      <description>Vinyl Lovers &amp; Underground Fun</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>22:30</heure>
+      <titre>PLAY ME BACK</titre>
+      <description>Retro House, Electro, Techno</description>
+      <animateur>DJ Booky</animateur>
+    </emission>
+    <emission>
+      <heure>00:00</heure>
+      <titre>LIQUID BASSROOM</titre>
+      <description>Sexy, Groovy, Funky, Liquid Drum &amp; Bass</description>
+      <animateur>Diagg</animateur>
+    </emission>
+    <emission>
+      <heure>01:00</heure>
+      <titre>ECLEKTIK</titre>
+      <description>Un Espace Musical pour nous faire les témoins du Passé, du Présent et du Futur</description>
+      <animateur>Haka-Hata</animateur>
+    </emission>
+    <emission>
+      <heure>02:00</heure>
+      <titre>ENTER SANDMAN</titre>
+      <description>Playlist pour noctambules</description>
+      <animateur></animateur>
+    </emission>
+  </jour>
+  <jour nom="Dimanche">
+    <emission>
+      <heure>07:00</heure>
+      <titre>MORNING GLORY</titre>
+      <description>Playlist Folk, Rock Pop, Soul...</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>10:00</heure>
+      <titre>ALBUM CULTE</titre>
+      <description>La chronique culte</description>
+      <animateur>Tonton JC</animateur>
+    </emission>
+    <emission>
+      <heure>10:30</heure>
+      <titre>PROPAGANDE MUSICALE</titre>
+      <description>L'emission qui decloisonne la musique et les esprits</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>11:00</heure>
+      <titre>L'AGE DU DIESEL (Une émission de SOL FM à Lyon) un theme, un mix...</titre>
+      <animateur>Joey Perfecto</animateur>
+    </emission>
+    <emission>
+      <heure>12:00</heure>
+      <titre>PATTES DE VELOURS</titre>
+      <description>Playlists thematiques</description>
+      <animateur>Petit Pierre</animateur>
+    </emission>
+    <emission>
+      <heure>13:00</heure>
+      <titre>CHRONIQUE LIVRE</titre>
+      <description>La chronique livre de RCV99</description>
+      <animateur>Olivier</animateur>
+    </emission>
+    <emission>
+      <heure>13:03</heure>
+      <titre>REPORTAGE REGIONAUX</titre>
+      <description>proposes les radios de la FRANF</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>14:00</heure>
+      <titre>DIG DIG DIGGERS</titre>
+      <description>L'émission musicale des radios FERAROCK</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>15:00</heure>
+      <titre>LES Z'ENTONNOIRS</titre>
+      <description>Talk Show actu &amp; musiques par des patients et infirmiers en psychiatrie a Roubaix</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>16:00</heure>
+      <titre>CHRONIQUE LIVRE</titre>
+      <description>La chronique livre de RCV99</description>
+      <animateur>Olivier</animateur>
+    </emission>
+    <emission>
+      <heure>16:05</heure>
+      <titre>RCV IN FRENCH</titre>
+      <description>Sélection francophone (Belles Oreilles)</description>
+      <animateur>Patrick </animateur>
+    </emission>
+    <emission>
+      <heure>16:30</heure>
+      <titre>DE LA LUMIERE AU GRENIER</titre>
+      <description>Tonton JC depoussiere ses Vinyles, CD et Cassettes venus des annees 60, 70, 80's et plus si affinite.</description>
+      <animateur>Tonton JC</animateur>
+    </emission>
+    <emission>
+      <heure>17:30</heure>
+      <titre>ROCKEZ BELLES OREILLES (R.B.O.)</titre>
+      <description>Roots &amp; Roll music (Belles Oreilles)</description>
+      <animateur>Patrick </animateur>
+    </emission>
+    <emission>
+      <heure>19:00</heure>
+      <titre>BAM BALAM</titre>
+      <description>Nouveautes et re-editions Pop &amp; Rock</description>
+      <animateur>Papy Bam</animateur>
+    </emission>
+    <emission>
+      <heure>20:30</heure>
+      <titre>SPIRIT IN THE NIGHT</titre>
+      <description>Post Rock &amp; Indie</description>
+      <animateur>Fred et Eric</animateur>
+    </emission>
+    <emission>
+      <heure>20:30</heure>
+      <titre>X-WAVE</titre>
+      <description>New wave, Cold wave, Indus</description>
+      <animateur>Dageist</animateur>
+    </emission>
+    <emission>
+      <heure>22:30</heure>
+      <titre>PLAYGROUND</titre>
+      <description>L'actualité indie rock/pop/folk</description>
+      <animateur>Phil Indie</animateur>
+    </emission>
+    <emission>
+      <heure>22:30</heure>
+      <titre>TRAPANEL</titre>
+      <description>L'émission qui traite de la musique en long et en large</description>
+      <animateur>Seb Adam</animateur>
+    </emission>
+    <emission>
+      <heure>00:00</heure>
+      <titre>BRUIT DE FOND</titre>
+      <description>Derives nocturnes sur fond de musiques expérimentales, drone, ambient, noise, etc.</description>
+      <animateur></animateur>
+    </emission>
+    <emission>
+      <heure>01:00</heure>
+      <titre>ENTER SANDMAN</titre>
+      <description>Playlist pour noctambules</description>
+      <animateur></animateur>
+    </emission>
+  </jour>
+</programmation>
