@@ -171,7 +171,7 @@
             <xsl:for-each select="emission">
               <xsl:choose>
                 <xsl:when test="normalize-space(url) != ''">
-                  <a class="emission" href="{url}">
+                  <a class="emission" href="{url}" target="_top">
                     <div class="ligne-titre">
                       <span class="titre">
                         <xsl:value-of select="titre"/>
