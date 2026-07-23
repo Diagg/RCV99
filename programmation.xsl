@@ -97,19 +97,21 @@
   }
   .ligne-titre {
     display: grid;
-    grid-template-columns: 1fr 70px;
+    grid-template-columns: 70px 1fr;
     align-items: baseline;
     gap: 10px;
   }
   .heure {
-    grid-column: 2;
+    grid-column: 1;
+    order: 1;
     font-weight: bold;
     color: #f2cb05;
     white-space: nowrap;
-    text-align: right;
+    text-align: left;
   }
   .titre {
-    grid-column: 1;
+    grid-column: 2;
+    order: 2;
     font-weight: bold;
     font-size: 1.05em;
     color: #ffffff;
