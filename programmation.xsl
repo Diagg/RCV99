@@ -96,21 +96,20 @@
     background: #ffffff10;
   }
   .ligne-titre {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 70px;
     align-items: baseline;
     gap: 10px;
   }
   .heure {
-    width: 70px;
-    flex: 0 0 auto;
+    grid-column: 2;
     font-weight: bold;
     color: #f2cb05;
     white-space: nowrap;
     text-align: right;
   }
   .titre {
-    flex: 1 1 auto;
+    grid-column: 1;
     font-weight: bold;
     font-size: 1.05em;
     color: #ffffff;
@@ -152,8 +151,6 @@
 </head>
 <body>
 <div class="conteneur">
-  <h1><xsl:value-of select="@semaine"/></h1>
-
   <div class="onglets">
     <xsl:for-each select="jour">
       <xsl:variable name="pos" select="position()"/>
