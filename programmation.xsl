@@ -116,11 +116,13 @@
     color: #ffffff;
   }
   .frequence {
-    display: block;
+    display: inline;
     font-weight: normal;
     font-size: 0.75em;
     color: #9a9aac;
     text-transform: none;
+    margin-left: 6px;
+    white-space: nowrap;
   }
   .animateur {
     display: block;
