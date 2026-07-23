@@ -78,26 +78,39 @@
   #tab-<xsl:value-of select="position()"/>:checked ~ .panneaux #panneau-<xsl:value-of select="position()"/> { display: block; }
   </xsl:for-each>
 
-  table.programme {
+  .programme {
     width: 100%;
-    border-collapse: collapse;
     margin: 10px 0;
   }
-  table.programme td {
-    padding: 4px 2px;
-    vertical-align: top;
+  .emission {
+    display: block;
+    padding: 8px 6px 2px;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 4px;
   }
-  .ligne-titre td {
-    padding-top: 14px;
+  a.emission {
+    cursor: pointer;
+  }
+  a.emission:hover {
+    background: #ffffff10;
+  }
+  .ligne-titre {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
   }
   .heure {
     width: 70px;
+    flex: 0 0 auto;
     font-weight: bold;
     color: #e63946;
     white-space: nowrap;
     text-align: right;
   }
   .titre {
+    flex: 1 1 auto;
     font-weight: bold;
     font-size: 1.05em;
     color: #ffffff;
@@ -110,22 +123,23 @@
     text-transform: none;
   }
   .animateur {
+    display: block;
     color: #f4a259;
     font-style: italic;
-    font-size: 0.9em;
+    font-size: 0.7em;
+    margin-top: 0px;
   }
   .description {
+    display: block;
     color: #c8c8d4;
     font-size: 0.9em;
     line-height: 1.4;
+    margin-top: 2px;
   }
-  .separateur td {
-    padding: 0;
-  }
-  .separateur hr {
+  .separateur {
     border: none;
     border-top: 1px solid #3a3a4a;
-    margin: 10px 0 0 0;
+    margin: 2px 0 0 0;
   }
 
   @media (max-width: 600px) {
@@ -153,32 +167,51 @@
       <xsl:for-each select="jour">
         <xsl:variable name="pos" select="position()"/>
         <div class="panneau" id="panneau-{$pos}">
-          <table class="programme">
+          <div class="programme">
             <xsl:for-each select="emission">
-               <tr class="ligne-titre">
-                 <td class="titre">
-                   <xsl:value-of select="titre"/>
-                   <xsl:if test="@frequence">
-                     <span class="frequence">(<xsl:value-of select="@frequence"/>)</span>
-                   </xsl:if>
-                 </td>
-                 <td class="heure"><xsl:value-of select="heure"/></td>
-               </tr>
-              <xsl:if test="normalize-space(animateur) != ''">
-                <tr>
-                  <td colspan="2" class="animateur"><xsl:value-of select="animateur"/></td>
-                </tr>
-              </xsl:if>
-              <xsl:if test="normalize-space(description) != ''">
-                <tr>
-                  <td colspan="2" class="description"><xsl:value-of select="description"/></td>
-                </tr>
-              </xsl:if>
-              <tr class="separateur">
-                <td colspan="2"><hr/></td>
-              </tr>
+              <xsl:choose>
+                <xsl:when test="normalize-space(url) != ''">
+                  <a class="emission" href="{url}">
+                    <div class="ligne-titre">
+                      <span class="titre">
+                        <xsl:value-of select="titre"/>
+                        <xsl:if test="@frequence">
+                          <span class="frequence">(<xsl:value-of select="@frequence"/>)</span>
+                        </xsl:if>
+                      </span>
+                      <span class="heure"><xsl:value-of select="heure"/></span>
+                    </div>
+                    <xsl:if test="normalize-space(animateur) != ''">
+                      <span class="animateur"><xsl:value-of select="animateur"/></span>
+                    </xsl:if>
+                    <xsl:if test="normalize-space(description) != ''">
+                      <span class="description"><xsl:value-of select="description"/></span>
+                    </xsl:if>
+                  </a>
+                </xsl:when>
+                <xsl:otherwise>
+                  <div class="emission">
+                    <div class="ligne-titre">
+                      <span class="titre">
+                        <xsl:value-of select="titre"/>
+                        <xsl:if test="@frequence">
+                          <span class="frequence">(<xsl:value-of select="@frequence"/>)</span>
+                        </xsl:if>
+                      </span>
+                      <span class="heure"><xsl:value-of select="heure"/></span>
+                    </div>
+                    <xsl:if test="normalize-space(animateur) != ''">
+                      <span class="animateur"><xsl:value-of select="animateur"/></span>
+                    </xsl:if>
+                    <xsl:if test="normalize-space(description) != ''">
+                      <span class="description"><xsl:value-of select="description"/></span>
+                    </xsl:if>
+                  </div>
+                </xsl:otherwise>
+              </xsl:choose>
+              <hr class="separateur"/>
             </xsl:for-each>
-          </table>
+          </div>
         </div>
       </xsl:for-each>
     </div>
