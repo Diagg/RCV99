@@ -13,7 +13,7 @@
     margin: 0;
     padding: 20px;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background: #12121a;
+    background: #0d0d0d;
     color: #f0f0f0;
   }
   .conteneur {
@@ -42,7 +42,7 @@
     text-align: center;
     padding: 14px 4px;
     margin: 0 3px 0 0;
-    background: #23233060;
+    background: #0d0d0d;
     border: 1px solid #3a3a4a;
     border-radius: 8px 8px 0 0;
     cursor: pointer;
@@ -59,9 +59,9 @@
     color: #ffffff;
   }
   .onglets input[type="radio"]:checked + label {
-    background: #e63946;
+    background: #f2cb05;
     color: #ffffff;
-    border-color: #e63946;
+    border-color: #f2cb05;
   }
 
   .panneaux {
@@ -105,7 +105,7 @@
     width: 70px;
     flex: 0 0 auto;
     font-weight: bold;
-    color: #e63946;
+    color: #f2cb05;
     white-space: nowrap;
     text-align: right;
   }
@@ -124,7 +124,7 @@
   }
   .animateur {
     display: block;
-    color: #f4a259;
+    color: #ffed00;
     font-style: italic;
     font-size: 0.7em;
     margin-top: 0px;
