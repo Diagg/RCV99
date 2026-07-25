@@ -3,59 +3,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Playlist NorthBass</title>
+  <title>Lecteur de Playlist YouTube</title>
   <style>
+    /* --- Styles Généraux --- */
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 10px;
-      background-color: transparent;
+      padding: 0;
+      height: 100vh; /* Toute la hauteur de l'écran */
+      display: flex;
+      background-color: #f9f9f9;
+      overflow: hidden; /* Empêche la page entière de scroller */
     }
+
+    /* --- Structure en deux panneaux --- */
+    
+    /* Panneau de Gauche (Lecteur) - 2/3 de l'écran */
+    #player-container {
+      flex: 2; /* Prend 2 parts */
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      border-right: 1px solid #eee;
+      box-sizing: border-box;
+      overflow-y: auto; /* Scrolle si la description est longue */
+    }
+
+    /* Panneau de Droite (Liste) - 1/3 de l'écran */
+    #playlist-container {
+      flex: 1; /* Prend 1 part */
+      background-color: #f1f1f1;
+      overflow-y: auto; /* Scrolle si la liste est longue */
+      box-sizing: border-box;
+    }
+
+    /* --- Styles du Lecteur (Gauche) --- */
+    .video-responsive {
+      position: relative;
+      padding-bottom: 56.25%; /* Ratio 16:9 */
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 20px;
+      background-color: #000; /* Fond noir avant chargement */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .video-responsive iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    #video-title {
+      margin: 0 0 10px 0;
+      font-size: 1.5em;
+    }
+
+    #video-description {
+      color: #444;
+      line-height: 1.6;
+      white-space: pre-wrap; /* Respecte les retours à la ligne de YouTube */
+    }
+    
+    /* Message affiché avant la première sélection */
+    .placeholder-message {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      color: #888;
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    /* --- Styles de la Liste (Droite) --- */
     .video-list {
       list-style: none;
-      padding: 0;
+      padding: 10px;
       margin: 0;
     }
+
     .video-item {
-      margin-bottom: 15px;
-      padding-bottom: 15px;
-      border-bottom: 1px solid #eee;
+      margin-bottom: 10px;
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: box-shadow 0.2s, transform 0.2s;
+      border: 2px solid transparent; /* Pour l'état sélectionné */
     }
-    .video-item a {
+
+    .video-item:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+      cursor: pointer;
+    }
+    
+    /* Style pour la vidéo actuellement jouée */
+    .video-item.active {
+      border-color: #e52d27; /* Rouge YouTube */
+      background-color: #fff5f5;
+    }
+
+    .video-link {
       display: flex;
-      gap: 15px;
+      flex-direction: column; /* Image au dessus du titre */
       text-decoration: none;
       color: #333;
     }
+
     .video-item img {
-      width: 140px;
-      height: 80px;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
       object-fit: cover;
-      border-radius: 6px;
-      flex-shrink: 0;
+      display: block;
     }
-    .video-info h3 {
-      margin: 0 0 5px 0;
-      font-size: 0.95em;
-      line-height: 1.3;
-    }
-    .video-info p {
+
+    .video-item h3 {
       margin: 0;
-      font-size: 0.8em;
-      color: #666;
+      padding: 10px;
+      font-size: 0.9em;
+      line-height: 1.4;
+      font-weight: 600;
+      /* Tronquer le titre à 2 lignes */
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
-    .video-item a:hover h3 {
-      color: #e52d27;
+
+    /* --- Adaptabilité Mobile (Empiler les panneaux) --- */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+        overflow: auto;
+      }
+      #player-container, #playlist-container {
+        flex: none;
+        width: 100%;
+        height: auto;
+      }
+      #playlist-container {
+        border-top: 1px solid #eee;
+      }
     }
   </style>
 </head>
 <body>
 
-  <div id="rss-container">Chargement des vidéos...</div>
+  <!-- PANNEAU GAUCHE : Zone du Lecteur Vidéo -->
+  <div id="player-container">
+    <div class="placeholder-message">
+      Sélectionnez une vidéo dans la liste de droite pour la visionner.
+    </div>
+  </div>
+
+  <!-- PANNEAU DROIT : Liste des vignettes -->
+  <div id="playlist-container">
+    <div id="rss-container">Chargement...</div>
+  </div>
 
   <script>
+    // Stockage global des données des vidéos pour y accéder au clic
+    let videoData = [];
+
+    // --- Fonction principale : Chargement du flux RSS ---
     async function loadRSS() {
-      // ⚠️ Pensez à vérifier votre ID de playlist :
+      // ⚠️ METTEZ VOTRE ID DE PLAYLIST ICI ⚠️
       const playlistId = "PL--_WrWh7bil_mV0Rg4cDKbPDtPWYCcIx"; 
       
       const rssUrl = `https://www.youtube.com/feeds/videos.xml?playlist_id=${playlistId}`;
@@ -68,39 +187,38 @@
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xmlText, "text/xml");
 
-        // Récupération des entrées vidéo dans le flux Atom
         const entries = xmlDoc.querySelectorAll("entry");
         const container = document.getElementById('rss-container');
 
         if (entries.length === 0) {
-          container.innerText = "Aucune vidéo trouvée dans la playlist.";
+          container.innerText = "Aucune vidéo trouvée.";
           return;
         }
 
         let htmlContent = '<ul class="video-list">';
 
-        entries.forEach(entry => {
+        entries.forEach((entry, index) => {
+          // Extraire l'ID vidéo de YouTube
+          const videoId = entry.querySelector("id")?.textContent.split(':').pop() || "";
           const title = entry.querySelector("title")?.textContent || "";
-          const link = entry.querySelector("link")?.getAttribute("href") || "#";
           
-          // Récupération de la miniature (media:thumbnail)
-          const thumbnail = entry.getElementsByTagNameNS("http://search.yahoo.com/mrss/", "thumbnail")[0]?.getAttribute("url") || "";
+          // Récupérer la miniature (qualité moyenne pour la liste)
+          const mediaNs = "http://search.yahoo.com/mrss/";
+          const thumbnail = entry.getElementsByTagNameNS(mediaNs, "thumbnail")[0]?.getAttribute("url") || "";
           
-          // Récupération de la description (media:description)
-          let description = entry.getElementsByTagNameNS("http://search.yahoo.com/mrss/", "description")[0]?.textContent || "";
-          if (description.length > 120) {
-            description = description.substring(0, 120) + "...";
-          }
+          // Récupérer la description complète
+          const description = entry.getElementsByTagNameNS(mediaNs, "description")[0]?.textContent || "";
 
+          // Stocker les données pour le lecteur
+          videoData[index] = { videoId, title, description };
+
+          // Construire l'élément de liste (clic appelle selectVideo)
           htmlContent += `
-            <li class="video-item">
-              <a href="${link}" target="_blank">
-                <img src="${thumbnail}" alt="${title}" />
-                <div class="video-info">
-                  <h3>${title}</h3>
-                  <p>${description}</p>
-                </div>
-              </a>
+            <li class="video-item" id="item-${index}" onclick="selectVideo(${index})">
+              <div class="video-link">
+                <img src="${thumbnail}" alt="${title}" loading="lazy" />
+                <h3>${title}</h3>
+              </div>
             </li>
           `;
         });
@@ -110,10 +228,41 @@
 
       } catch (error) {
         console.error("Erreur :", error);
-        document.getElementById('rss-container').innerText = "Erreur de chargement du flux.";
+        document.getElementById('rss-container').innerText = "Erreur de chargement.";
       }
     }
 
+    // --- Fonction d'interaction : Afficher la vidéo sélectionnée à gauche ---
+    function selectVideo(index) {
+      const data = videoData[index];
+      const playerZone = document.getElementById('player-container');
+
+      if (!data) return;
+
+      // 1. Mettre à jour le code HTML du panneau de gauche
+      playerZone.innerHTML = `
+        <div class="video-responsive">
+          <iframe 
+            src="https://www.youtube.com/embed/${data.videoId}?autoplay=1" 
+            title="${data.title}"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <h2 id="video-title">${data.title}</h2>
+        <div id="video-description">${data.description}</div>
+      `;
+
+      // 2. Gérer le style "actif" dans la liste de droite
+      // Enlever la classe active de toutes les vidéos
+      document.querySelectorAll('.video-item').forEach(item => {
+        item.classList.remove('active');
+      });
+      // L'ajouter à la vidéo cliquée
+      document.getElementById(`item-${index}`).classList.add('active');
+    }
+
+    // Démarrer le chargement
     loadRSS();
   </script>
 
