@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Playlist Northbass</title>
+  <title>Playlist NorthBass</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -45,7 +45,7 @@
       color: #666;
     }
     .video-item a:hover h3 {
-      color: #e52d27; /* Rouge YouTube au survol */
+      color: #e52d27;
     }
   </style>
 </head>
@@ -55,36 +55,61 @@
 
   <script>
     async function loadRSS() {
-      // ⚠️ N'OUBLIEZ PAS DE CHANGER CET ID :
+      // ⚠️ Pensez à vérifier votre ID de playlist :
       const playlistId = "PL--_WrWh7bil_mV0Rg4cDKbPDtPWYCcIx"; 
       
       const rssUrl = `https://www.youtube.com/feeds/videos.xml?playlist_id=${playlistId}`;
       const corsProxy = "https://corsproxy.io/?";
 
       try {
-        const [xmlResponse, xslResponse] = await Promise.all([
-          fetch(corsProxy + encodeURIComponent(rssUrl)),
-          fetch('youtube_rss.xsl')
-        ]);
-
-        const xmlText = await xmlResponse.text();
-        const xslText = await xslResponse.text();
+        const response = await fetch(corsProxy + encodeURIComponent(rssUrl));
+        const xmlText = await response.text();
 
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xmlText, "text/xml");
-        const xslDoc = parser.parseFromString(xslText, "text/xml");
 
-        if (window.XSLTProcessor) {
-          const processor = new XSLTProcessor();
-          processor.importStylesheet(xslDoc);
-          const resultDocument = processor.transformToFragment(xmlDoc, document);
+        // Récupération des entrées vidéo dans le flux Atom
+        const entries = xmlDoc.querySelectorAll("entry");
+        const container = document.getElementById('rss-container');
 
-          const container = document.getElementById('rss-container');
-          container.innerHTML = '';
-          container.appendChild(resultDocument);
+        if (entries.length === 0) {
+          container.innerText = "Aucune vidéo trouvée dans la playlist.";
+          return;
         }
+
+        let htmlContent = '<ul class="video-list">';
+
+        entries.forEach(entry => {
+          const title = entry.querySelector("title")?.textContent || "";
+          const link = entry.querySelector("link")?.getAttribute("href") || "#";
+          
+          // Récupération de la miniature (media:thumbnail)
+          const thumbnail = entry.getElementsByTagNameNS("http://search.yahoo.com/mrss/", "thumbnail")[0]?.getAttribute("url") || "";
+          
+          // Récupération de la description (media:description)
+          let description = entry.getElementsByTagNameNS("http://search.yahoo.com/mrss/", "description")[0]?.textContent || "";
+          if (description.length > 120) {
+            description = description.substring(0, 120) + "...";
+          }
+
+          htmlContent += `
+            <li class="video-item">
+              <a href="${link}" target="_blank">
+                <img src="${thumbnail}" alt="${title}" />
+                <div class="video-info">
+                  <h3>${title}</h3>
+                  <p>${description}</p>
+                </div>
+              </a>
+            </li>
+          `;
+        });
+
+        htmlContent += '</ul>';
+        container.innerHTML = htmlContent;
+
       } catch (error) {
-        console.error(error);
+        console.error("Erreur :", error);
         document.getElementById('rss-container').innerText = "Erreur de chargement du flux.";
       }
     }
