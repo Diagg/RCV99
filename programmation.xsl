@@ -55,7 +55,7 @@
   }
   .onglets label:last-of-type { margin-right: 0; }
   .onglets label:hover {
-    background: #2f2f40;
+    background: #ffffff10;
     color: #ffffff;
   }
   .onglets input[type="radio"]:checked + label {
