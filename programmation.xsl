@@ -66,7 +66,7 @@
 
   .panneaux {
     flex-basis: 100%;
-    background: #1a1a24;
+    background: #0d0d0d;
     border: 1px solid #3a3a4a;
     border-top: none;
     border-radius: 0 0 8px 8px;
