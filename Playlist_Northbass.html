@@ -53,18 +53,13 @@
     }
 
     /* Panneau de Gauche (Lecteur) - 2/3 de l'écran */
-    #playlist-container {
-      flex: 1;
+    #player-container {
+      flex: 2;
       background-color: #ffed00;
-      padding: 0 6px; /* 0 en haut/bas pour laisser les bordures/espaces fixes */
+      padding: 8px;
       border-radius: 6px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.2);
       box-sizing: border-box;
-      overflow-y: auto; 
-    
-      /* Bordures solides en haut et en bas */
-      border-top: 8px solid #0D0D0D;
-      border-bottom: 8px solid #0D0D0D;
     }
 
     /* Panneau de Droite (Liste) - 1/3 de l'écran */
@@ -123,7 +118,7 @@
     /* --- Styles de la Liste (Droite) --- */
     .video-list {
       list-style: none;
-      padding: 8px 0; /* Garde une marge interne haute et basse constante */
+      padding: 0;
       margin: 0;
     }
 
