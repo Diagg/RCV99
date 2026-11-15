@@ -68,14 +68,14 @@
     </emission>
     <emission>
       <heure>19:00</heure>
-      <titre>HAVE A TRIP</titre>
-      <description>L'emission anti 'easy-listening'</description>
-      <animateur>Deekool</animateur>
-      <url>https://rcv-lille.radio-website.com/emissions/anti-easy-listening-music-8</url>
+      <titre>PYONGYANG CITY ROCKERS</titre>
+      <description></description>
+      <animateur></animateur>
+      <url></url>
       <image></image>
     </emission>
     <emission frequence="1er et 3e lundi du mois">
-      <heure>21:30</heure>
+      <heure>20:00</heure>
       <titre>HAPPY MONDAY</titre>
       <description>L'emission Pop</description>
       <animateur>Ivan, Remi &amp; Franck</animateur>
@@ -83,7 +83,7 @@
       <image></image>
     </emission>
     <emission frequence="2eme et 4e lundi du mois">
-      <heure>21:30</heure>
+      <heure>20:00</heure>
       <titre>PASS SONORE</titre>
       <description>Une emission decalée mais sérieuse</description>
       <animateur>Torero &amp; Tracks</animateur>
@@ -91,7 +91,15 @@
       <image></image>
     </emission>
     <emission>
-      <heure>22:30</heure>
+      <heure>21:15</heure>
+      <titre>HAVE A TRIP</titre>
+      <description>L'emission anti 'easy-listening'</description>
+      <animateur>Deekool</animateur>
+      <url>https://rcv-lille.radio-website.com/emissions/anti-easy-listening-music-8</url>
+      <image></image>
+    </emission>    
+    <emission>
+      <heure>23:30</heure>
       <titre>LA VIE DES MICROBES</titre>
       <description>Agenda evenements underground</description>
       <animateur>Stéphane</animateur>
@@ -99,15 +107,15 @@
       <image></image>
     </emission>
     <emission>
-      <heure>23:30</heure>
+      <heure>00:30</heure>
       <titre>PATTES DE VELOURS</titre>
-      <description>Selection musicale(une émission de SOL FM à Lyon)</description>
+      <description>Sélection musicale(une émission de SOL FM à Lyon)</description>
       <animateur>Petit Pierre </animateur>
       <url>https://rcv99.org/emissions/pattes-de-velours-111</url>
       <image></image>
     </emission>
     <emission>
-      <heure>00:30</heure>
+      <heure>01:30</heure>
       <titre>ENTER SANDMAN</titre>
       <description>Playlist pour noctambules</description>
       <animateur></animateur>
@@ -124,7 +132,7 @@
       <url>https://rcv-lille.radio-website.com/emissions/selection-francophone-69</url>
       <image></image>
     </emission>
-    <emission>
+    <emission frequence="En alternance avec L'Estaminette">
       <heure>08:00</heure>
       <titre>PLAYGROUND</titre>
       <description>L'actualité indie rock/pop/folk</description>
@@ -132,6 +140,14 @@
       <url>https://rcv99.org/emissions/nouveautes-indie-rock-58</url>
       <image></image>
     </emission>
+    <emission frequence="En alternance avec Playground">
+      <heure>08:00</heure>
+      <titre>L'ESTAMINETTE</titre>
+      <description>L'émission culture et société avec Manon, Agathe, Sephora et leurs invités</description>
+      <animateur>Manon, Agathe &amp; Sephora</animateur>
+      <url>https://rcv99.org/emissions/l-estaminette-127</url>
+      <image></image>
+    </emission>    
     <emission>
       <heure>09:30</heure>
       <titre>MORNING GLORY</titre>
@@ -141,10 +157,18 @@
       <image></image>
     </emission>
     <emission>
+      <heure>11:45</heure>
+      <titre>REPORTAGES REGIONAUX</titre>
+      <description>réalisés par les radios membres de la FRANF</description>
+      <animateur></animateur>
+      <url>https://rcv-lille.radio-website.com/emissions/reportages-regionaux-des-radios-de-la-franf-40</url>
+      <image></image>
+    </emission>    
+    <emission>
       <heure>12:00</heure>
       <titre>ROCKEZ BELLES OREILLES (R.B.O.)</titre>
       <description>Roots &amp; Roll music (Belles Oreilles)</description>
-      <animateur>Patrick </animateur>
+      <animateur>Patrick</animateur>
       <url>https://rcv99.org/emissions/rockez-belles-oreilles-r-b-o-roots-n-roll-music-52</url>
       <image></image>
     </emission>
@@ -156,15 +180,15 @@
       <url></url>
       <image></image>
     </emission>
-    <emission>
-      <heure>17:00</heure>
-      <titre>FUNK YOUR HEAD</titre>
-      <description>Mix Afro Beat, Disco, Funk...</description>
-      <animateur>Housatonic</animateur>
-      <url>https://rcv99.org/emissions/funk-your-head-vinyl-mix-afro-beat-funk-disco-25</url>
+    <emission frequence="Quinzaine semaine impaire">
+      <heure>16:30</heure>
+      <titre>SKUUURT</titre>
+      <description>l'émission Hip Hop sans langue de bois</description>
+      <animateur>SCOLTI/KARO/DAN/LILIA</animateur>
+      <url>https://rcv99.org/emissions/skuuurt-rap-hip-hop-culture-109</url>
       <image></image>
     </emission>
-    <emission>
+    <emission frequence="Quinzaine semaine paire">
       <heure>18:00</heure>
       <titre>WATTS UP?</titre>
       <description>Actu musicale &amp; culturelle</description>
@@ -184,16 +208,16 @@
       <heure>21:00</heure>
       <titre>WOOD BLOCK</titre>
       <description>Emission poetique et musicale</description>
-      <animateur>Olivier et ses invites</animateur>
+      <animateur>Olivier et ses invités</animateur>
       <url>https://rcv99.org/emissions/wood-block-poesie-chansons-et-etats-d-ame-19</url>
       <image></image>
     </emission>
     <emission frequence="une semaine sur deux">
       <heure>21:00</heure>
-      <titre>LE PLAN ET LE SON</titre>
-      <description>Mara De Carva analyse un film d'auteur à travers l'image et la bande-son</description>
-      <animateur>Mara De Carva</animateur>
-      <url>https://rcv99.org/emissions/cinema-d-auteur-analyse-des-films-par-leur-image-et-leur-son-117</url>
+      <titre>SYNCOPEE</titre>
+      <description>Textes et poésie sur fond d'électro de niche</description>
+      <animateur>Audrey</animateur>
+      <url>https://rcv99.org/emissions/syncopee-130</url>
       <image></image>
     </emission>
     <emission>
@@ -204,15 +228,15 @@
       <url>https://rcv99.org/emissions/liquid-bass-room-by-diagg-103</url>
       <image></image>
     </emission>
-    <emission>
+    <emission frequence="Quinzaine semaine paires">
       <heure>23:00</heure>
-      <titre>TROU NOIR</titre>
-      <description>Rap, dub, lecture &amp; creation sonore (co-production PFM à Arras et RCV99)</description>
-      <animateur>Luc, Jeff Bibs et Romain</animateur>
+      <titre>DJ MOUSENESS</titre>
+      <description>Electro ambiant</description>
+      <animateur>Caroline</animateur>
       <url></url>
       <image></image>
     </emission>
-    <emission frequence="1er mardi du mois">
+    <emission frequence="1re semaine impaire du mois">
       <heure>23:00</heure>
       <titre>NOMAD</titre>
       <description>Simulateur de dérive urbaine</description>
@@ -220,26 +244,34 @@
       <url>https://rcv99.org/emissions/simulateur-de-derive-urbaine-106</url>
       <image></image>
     </emission>
+    <emission frequence="2me semaine impaire du mois">
+      <heure>23:00</heure>
+      <titre>ZIGGOURATT</titre>
+      <description>Voyage cerebral</description>
+      <animateur>Wakarm</animateur>
+      <url></url>
+      <image></image>
+    </emission>    
     <emission>
       <heure>00:00</heure>
+      <titre>TROU NOIR</titre>
+      <description>Rap, dub, lecture &amp; création sonore (co-production PFM à Arras et RCV99)</description>
+      <animateur>Luc, Jeff Bibs et Romain</animateur>
+      <url></url>
+      <image></image>
+    </emission>
+    <emission>
+      <heure>01:00</heure>
       <titre>ECLEKTIK</titre>
-      <description>Un Espace Musical pour nous faire les temoins du Passe</description>
+      <description>Un Espace Musical pour nous faire les témoins du Passé</description>
       <animateur>Haka-Hata</animateur>
       <url>https://rcv99.org/emissions/mixtapes-by-haka-hata-64</url>
       <image></image>
     </emission>
     <emission>
-      <heure>01:00</heure>
-      <titre>JAZZ ATTITUDE</titre>
-      <description>l'actualite du jazz</description>
-      <animateur>Sir Ali</animateur>
-      <url></url>
-      <image></image>
-    </emission>
-    <emission>
       <heure>03:00</heure>
       <titre>ENTER SANDMAN</titre>
-      <description>Playlist pour noctambules du Present et du Futur</description>
+      <description>Playlist pour noctambules du Présent et du Futur</description>
       <animateur></animateur>
       <url></url>
       <image></image>
@@ -271,6 +303,14 @@
       <image></image>
     </emission>
     <emission>
+      <heure>11:45</heure>
+      <titre>REPORTAGES REGIONAUX</titre>
+      <description>réalisés par les radios membres de la FRANF</description>
+      <animateur></animateur>
+      <url>https://rcv-lille.radio-website.com/emissions/reportages-regionaux-des-radios-de-la-franf-40</url>
+      <image></image>
+    </emission>    
+    <emission>
       <heure>12:00</heure>
       <titre>BAM BALAM</titre>
       <description>Nouveautes et re-editions Pop &amp; Rock</description>
@@ -294,7 +334,15 @@
       <url>https://rcv99.org/emissions/hot99-hip-hop-vinyl-culture-59</url>
       <image></image>
     </emission>
-    <emission>
+    <emission frequence="En alternance avec Reeeload">
+      <heure>18:00</heure>
+      <titre>L'ESTAMINETTE</titre>
+      <description>L'émission culture et société avec Manon, Agathe, Sephora et leurs invités</description>
+      <animateur>Manon, Agathe &amp; Sephora</animateur>
+      <url>https://rcv99.org/emissions/l-estaminette-127</url>
+      <image></image>
+    </emission>    
+    <emission frequence="En alternance avec l'Estaminette">
       <heure>18:00</heure>
       <titre>REEELOAD!</titre>
       <description>Nouveautes Bass Music &amp; Electronic</description>
@@ -305,8 +353,8 @@
     <emission>
       <heure>19:30</heure>
       <titre>SKUUURT</titre>
-      <description>l'emission Hip Hop sans langue de bois</description>
-      <animateur></animateur>
+      <description>l'émission Hip Hop sans langue de bois</description>
+      <animateur>SCOLTI/KARO/DAN/LILIA</animateur>
       <url>https://rcv99.org/emissions/skuuurt-rap-hip-hop-culture-109</url>
       <image></image>
     </emission>
@@ -318,7 +366,7 @@
       <url>https://rcv99.org/emissions/vynil-me-vinyl-mix-by-joe-dahlin-guests-83</url>
       <image></image>
     </emission>
-    <emission frequence="1er et 3emercredi">
+    <emission frequence="1er et 3eme mercredi">
       <heure>20:30</heure>
       <titre>THE SPATEN PROJECT</titre>
       <description>Nouveautes Rock, Hip Hop, Electro, Groove...</description>
@@ -335,9 +383,9 @@
       <image></image>
     </emission>
     <emission>
-      <heure>23:35</heure>
+      <heure>00:00</heure>
       <titre>L'AGE DU DIESEL</titre>
-      <description>un theme, un mix ...  (Une émission de SOL FM à Lyon)</description>
+      <description>un thème, un mix ...  (Une émission de SOL FM à Lyon)</description>
       <animateur>Joey Perfecto</animateur>
       <url>https://rcv99.org/emissions/l-age-du-diesel-mix-thematiques-115</url>
       <image></image>
@@ -362,10 +410,10 @@
     </emission>
     <emission>
       <heure>08:00</heure>
-      <titre>TRI SELECTIF</titre>
-      <description>Recyclage de disques mal aimés et de trésors oubliés (une émission de Canal B à Rennes)</description>
-      <animateur>Antoine</animateur>
-      <url>https://rcv99.org/emissions/tri-selectif-disques-mal-aimes-et-de-tresors-oublies-110</url>
+      <titre>CE N'EST QUE DE LA MUSIQUE</titre>
+      <description>Voyage dans le monde du rock'n'roll, mais pas que...</description>
+      <animateur></animateur>
+      <url></url>
       <image></image>
     </emission>
     <emission>
@@ -376,6 +424,14 @@
       <url></url>
       <image></image>
     </emission>
+    <emission>
+      <heure>11:45</heure>
+      <titre>REPORTAGES REGIONAUX</titre>
+      <description>réalisés par les radios membres de la FRANF</description>
+      <animateur></animateur>
+      <url>https://rcv-lille.radio-website.com/emissions/reportages-regionaux-des-radios-de-la-franf-40</url>
+      <image></image>
+    </emission>    
     <emission>
       <heure>12:00</heure>
       <titre>SPORTING CLUB</titre>
@@ -461,7 +517,7 @@
     <emission>
       <heure>08:00</heure>
       <titre>DE LA LUMIERE AU GRENIER</titre>
-      <description>Tonton JC depoussiere ses Vinyles, CD et Cassettes venus des annees 60, 70, 80's et plus si affinite.</description>
+      <description>Tonton JC dépoussière ses vinyles, CD et cassettes venus des années 60, 70, 80 et plus si affinités.</description>
       <animateur>Tonton JC</animateur>
       <url>https://rcv99.org/emissions/de-la-lumiere-au-grenier-vintage-sound-rock-culture-112</url>
       <image></image>
@@ -474,6 +530,14 @@
       <url></url>
       <image></image>
     </emission>
+    <emission>
+      <heure>11:45</heure>
+      <titre>REPORTAGES REGIONAUX</titre>
+      <description>réalisés par les radios membres de la FRANF</description>
+      <animateur></animateur>
+      <url>https://rcv-lille.radio-website.com/emissions/reportages-regionaux-des-radios-de-la-franf-40</url>
+      <image></image>
+    </emission>    
     <emission>
       <heure>12:00</heure>
       <titre>WAGWAAANNN ?!</titre>
@@ -491,69 +555,93 @@
       <image></image>
     </emission>
     <emission>
-      <heure>17:00</heure>
-      <titre>SKUUURT</titre>
-      <description>L'émission Hip Hop sans langue de bois</description>
-      <animateur></animateur>
-      <url>https://rcv99.org/emissions/skuuurt-rap-hip-hop-culture-109</url>
-      <image></image>
-    </emission>
-    <emission>
-      <heure>18:00</heure>
-      <titre>WORLD WIDE RAP</titre>
-      <description>L'emission qui fait le tour du globe pour explorer la diversite du rap</description>
-      <animateur></animateur>
-      <url>https://rcv99.org/emissions/world-wide-rap-rap-music-all-around-the-world-105</url>
-      <image></image>
-    </emission>
-    <emission>
-      <heure>19:30</heure>
+      <heure>16:00</heure>
       <titre>FUNK YOUR HEAD</titre>
       <description>Mix Afro Beat, Disco, Funk...</description>
       <animateur>Housatonic</animateur>
       <url>https://rcv99.org/emissions/funk-your-head-vinyl-mix-afro-beat-funk-disco-25</url>
       <image></image>
-    </emission>
+    </emission>    
     <emission>
-      <heure>20:30</heure>
-      <titre>EL REANIMATOR</titre>
-      <description>Rediffusions en hommage a Xavier (El Reanimator)</description>
-      <animateur>Xavier (El Reanimator)</animateur>
-      <url>https://rcv99.org/emissions/el-reanimator-electronic-indus-experimental-14</url>
+      <heure>17:00</heure>
+      <titre>RADAR CULTURE</titre>
+      <description>Actu culture et musique avec Korrea, Audrey, Olivier et leurs invités</description>
+      <animateur>Korrea, Audrey &amp; Olivier</animateur>
+      <url>https://rcv99.org/emissions/radar-culture-culture-musique-societe-et-bonne-humeur-125</url>
       <image></image>
     </emission>
     <emission frequence="1er et 3eme vendredi">
-      <heure>22:00</heure>
-      <titre>NORTH BASS</titre>
-      <description>Actu, Talks &amp; mix bass music</description>
-      <animateur>Sloan, Acani, BLT et Cailla</animateur>
-      <url>https://rcv99.org/emissions/north-bass-actu-talk-mix-bass-music-71</url>
+      <heure>18:00</heure>
+      <titre>SEMAPHORE</titre>
+      <description>Sémaphore invite les artistes locaux pour évoquer leur actualité. Le cinéma y est aussi mis à l'honneur</description>
+      <animateur>JF, Christophe &amp; Marie</animateur>
+      <url>https://rcv99.org/emissions/semaphore-des-groupes-du-nord-du-rock-du-cine-124</url>
       <image></image>
     </emission>
-    <emission frequence="2e vendredi">
-      <heure>22:00</heure>
-      <titre>ANALOG MIND</titre>
-      <description>Techno mix &amp; talks</description>
-      <animateur></animateur>
-      <url>https://rcv99.org/emissions/analog-mind-techno-mix-talks-76</url>
+    <emission>
+      <heure>19:30</heure>
+      <titre>AUHUITIEME</titre>
+      <description>Tech/house/funk/newwave/electro/rock</description>
+      <animateur>ECLPET</animateur>
+      <url>https://rcv99.org/emissions/au-huitieme-electro-techno-house-new-wave-funk-avec-eclept-122</url>
       <image></image>
     </emission>
-    <emission frequence="dernier vendredi">
-      <heure>22:00</heure>
-      <titre>UNLIKE SESSIONS</titre>
-      <description>Dubstep, Grime &amp; U.K Beats</description>
-      <animateur>Hughes, Oneku &amp; Jaka</animateur>
-      <url>https://rcv99.org/emissions/unlike-sessions-dubstep-grime-uk-garage-jungle-drum-bass-33</url>
-      <image></image>
-    </emission>
-    <emission frequence="le 1er vendredi du mois">
-      <heure>00:00</heure>
+    <emission frequence="le 1er et 3eme vendredi du mois">
+      <heure>20:30</heure>
       <titre>MARIAH CALAIS</titre>
       <description>Que des tubes et des Go sûres !</description>
       <animateur>DJ Cut Kebab &amp; Choucroute Selecta</animateur>
       <url>https://rcv99.org/emissions/mariah-calais-que-des-tubes-et-des-go-sures-107</url>
       <image></image>
     </emission>
+    <emission frequence="le 2eme et 4eme vendredi du mois">
+      <heure>20:30</heure>
+      <titre>UNLIKE SESSIONS</titre>
+      <description>Dubstep, Grime amp; U.K Beats</description>
+      <animateur>Hughes, Oneku amp; Jaka</animateur>
+      <url>https://rcv99.org/emissions/unlike-sessions-dubstep-grime-uk-garage-jungle-drum-bass-33</url>
+      <image></image>
+    </emission>
+    <emission frequence="2eme semaine paire">
+      <heure>22:30</heure>
+      <titre>NORTH BASS</titre>
+      <description>Actu, Talks amp; mix bass music</description>
+      <animateur>Sloan, Acani, BLT et Cailla</animateur>
+      <url>https://rcv99.org/emissions/north-bass-actu-talk-mix-bass-music-71</url>
+      <image></image>
+    </emission>
+    <emission frequence="1er vendredi du mois">
+      <heure>22:30</heure>
+      <titre>ANALOG MIND</titre>
+      <description>Techno mix amp; talks</description>
+      <animateur>Hannah</animateur>
+      <url>https://rcv99.org/emissions/analog-mind-techno-mix-talks-76</url>
+      <image></image>
+    </emission>
+    <emission frequence="3eme vendredi du mois">
+      <heure>22:30</heure>
+      <titre>Interference</titre>
+      <description>L'émission propose des introductions à des sous-genres de musique électronique, la présentation d'artistes, des invitations, des DJ-sets, du VJING.</description>
+      <animateur>Arthygan</animateur>
+      <url>https://rcv99.org/emissions/interference-musique-electronique-experimentale-123</url>
+      <image></image>
+    </emission>    
+    <emission frequence="le 3eme vendredi du mois">
+      <heure>00:30</heure>
+      <titre>TROP TARD POUR ETRE COOL</titre>
+      <description>Décryptage des sous-cultures du disco au Frenchcore !</description>
+      <animateur>Dalil</animateur>
+      <url></url>
+      <image></image>
+    </emission>
+    <emission frequence="le 1eme vendredi du mois">
+      <heure>00:30</heure>
+      <titre>DERIVES ELECTRONIQUES</titre>
+      <description>musiques électroniques underground</description>
+      <animateur>Remy</animateur>
+      <url>https://rcv99.org/emissions/derives-electroniques-134</url>
+      <image></image>
+    </emission>    
     <emission>
       <heure>01:00</heure>
       <titre>ENTER SANDMAN</titre>
@@ -574,10 +662,10 @@
     </emission>
     <emission>
       <heure>09:00</heure>
-      <titre>DE LA LUMIERE AU GRENIER</titre>
-      <description>Tonton JC depoussiere ses Vinyles, CD et Cassettes venus des annees 60, 70, 80's et plus si affinite.</description>
-      <animateur>Tonton JC</animateur>
-      <url>https://rcv99.org/emissions/de-la-lumiere-au-grenier-vintage-sound-rock-culture-112</url>
+      <titre>CE N'EST QUE DE LA MUSIQUE</titre>
+      <description>Voyage dans le monde du rock'n'roll, mais pas que...</description>
+      <animateur></animateur>
+      <url></url>
       <image></image>
     </emission>
     <emission>
@@ -596,7 +684,7 @@
       <url>https://rcv99.org/emissions/have-a-travel-musiques-d-ailleurs-27</url>
       <image></image>
     </emission>
-    <emission>
+    <emission frequence="le 1eme et 3eme samedi du mois">
       <heure>12:00</heure>
       <titre>JAZZ ATTITUDE</titre>
       <description>L'actualite du Jazz</description>
@@ -604,6 +692,14 @@
       <url>https://rcv99.org/emissions/jazz-attitude-l-actualite-du-jazz-avec-sir-ali-73</url>
       <image></image>
     </emission>
+     <emission frequence="le 2eme et 4eme samedi du mois">
+      <heure>12:00</heure>
+      <titre>TOTAL KHEOPS</titre>
+      <description>Total Khéops c'est un voyage, propulsé à 100 000 km/h à bord de la fusée du jazz, avec aucune destination en vue...</description>
+      <animateur></animateur>
+      <url>https://rcv99.org/emissions/total-kheops-131</url>
+      <image></image>
+    </emission>   
     <emission>
       <heure>14:00</heure>
       <titre>SWING A LING SOUND</titre>
@@ -615,7 +711,7 @@
     <emission>
       <heure>16:00</heure>
       <titre>LA VOIX DU HIP HOP</titre>
-      <description>Rap U.S &amp; Rap Francais</description>
+      <description>Rap U.S amp; Rap Francais</description>
       <animateur>Ivy</animateur>
       <url>https://rcv99.org/emissions/la-voix-du-hip-hop-rap-u-s-rap-francais-34</url>
       <image></image>
@@ -623,15 +719,15 @@
     <emission>
       <heure>17:00</heure>
       <titre>HOT99</titre>
-      <description>Mix Rap &amp; discussions</description>
-      <animateur>Dann Lee &amp; Friends</animateur>
+      <description>Mix Rap amp; discussions</description>
+      <animateur>Dann Lee amp; Friends</animateur>
       <url>https://rcv99.org/emissions/hot99-hip-hop-vinyl-culture-59</url>
       <image></image>
     </emission>
     <emission>
       <heure>18:00</heure>
       <titre>SPORTING CLUB</titre>
-      <description>Nouveautes &amp; Classics Global Groove</description>
+      <description>Nouveautes amp; Classics Global Groove</description>
       <animateur>Zoymista</animateur>
       <url>https://rcv99.org/emissions/sporting-club-ethio-jazz-afro-beat-groove-66</url>
       <image></image>
@@ -647,7 +743,7 @@
     <emission>
       <heure>20:30</heure>
       <titre>MY FAVOURITE EVERYTHING</titre>
-      <description>Vinyl Lovers &amp; Underground Fun</description>
+      <description>Vinyl Lovers amp; Underground Fun</description>
       <animateur></animateur>
       <url>https://rcv99.org/emissions/my-favourite-everything-vinyl-mix-indie-oldies-and-rarities-98</url>
       <image></image>
@@ -662,18 +758,18 @@
     </emission>
     <emission>
       <heure>00:00</heure>
-      <titre>LIQUID BASSROOM</titre>
-      <description>Sexy, Groovy, Funky, Liquid Drum &amp; Bass</description>
-      <animateur>Diagg</animateur>
-      <url>https://rcv99.org/emissions/liquid-bass-room-groovy-drum-bass-by-diagg-103</url>
+      <titre>AUHUITIEME</titre>
+      <description>Tech/house/funk/newwave/electro/rock</description>
+      <animateur>ECLPET</animateur>
+      <url>https://rcv99.org/emissions/au-huitieme-electro-techno-house-new-wave-funk-avec-eclept-122</url>
       <image></image>
-    </emission>
+    </emission>    
     <emission>
       <heure>01:00</heure>
-      <titre>ECLEKTIK</titre>
-      <description>Un Espace Musical pour nous faire les témoins du Passé, du Présent et du Futur</description>
-      <animateur>Haka-Hata</animateur>
-      <url>https://rcv99.org/emissions/eclektik-mixtapes-by-haka-hata-64</url>
+      <titre>LIQUID BASSROOM</titre>
+      <description>Sexy, Groovy, Funky, Liquid Drum amp; Bass</description>
+      <animateur>Diagg</animateur>
+      <url>https://rcv99.org/emissions/liquid-bass-room-groovy-drum-bass-by-diagg-103</url>
       <image></image>
     </emission>
     <emission>
@@ -695,14 +791,6 @@
       <image></image>
     </emission>
     <emission>
-      <heure>10:00</heure>
-      <titre>ALBUM CULTE</titre>
-      <description>La chronique culte</description>
-      <animateur>Tonton JC</animateur>
-      <url></url>
-      <image></image>
-    </emission>
-    <emission>
       <heure>10:30</heure>
       <titre>PROPAGANDE MUSICALE</titre>
       <description>L'emission qui decloisonne la musique et les esprits</description>
@@ -712,10 +800,10 @@
     </emission>
     <emission>
       <heure>11:00</heure>
-      <titre>L'AGE DU DIESEL</titre>
-      <description>un theme, un mix...  (Une émission de SOL FM à Lyon)</description>
-      <animateur>Joey Perfecto</animateur>
-      <url>https://rcv99.org/emissions/l-age-du-diesel-mix-thematiques-115</url>
+      <titre>RADAR CULTURE</titre>
+      <description>Actu culture et musique avec Korrea, Audrey, Olivier et leurs invités</description>
+      <animateur>Korrea, Audrey &amp; Olivier</animateur>
+      <url>https://rcv99.org/emissions/radar-culture-culture-musique-societe-et-bonne-humeur-125</url>
       <image></image>
     </emission>
     <emission>
@@ -735,21 +823,21 @@
       <image></image>
     </emission>
     <emission>
-      <heure>13:30</heure>
-      <titre>REPORTAGE REGIONAUX</titre>
-      <description>proposes les radios de la FRANF</description>
-      <animateur></animateur>
-      <url></url>
-      <image></image>
-    </emission>
-    <emission>
-      <heure>14:00</heure>
+      <heure>13:03</heure>
       <titre>DIG DIG DIGGERS</titre>
       <description>L'émission musicale des radios FERAROCK</description>
       <animateur></animateur>
       <url>https://rcv99.org/emissions/reportages-regionaux-reportages-regionaux-des-radios-de-la-franf-40</url>
       <image></image>
-    </emission>
+    </emission>    
+    <emission>
+      <heure>14:00</heure>
+      <titre>L'AGE DU DIESEL</titre>
+      <description>un theme, un mix...  (Une émission de SOL FM à Lyon)</description>
+      <animateur>Joey Perfecto</animateur>
+      <url>https://rcv99.org/emissions/l-age-du-diesel-mix-thematiques-115</url>
+      <image></image>
+    </emission>    
     <emission>
       <heure>15:00</heure>
       <titre>LES Z'ENTONNOIRS</titre>
@@ -798,7 +886,7 @@
       <url>https://rcv99.org/emissions/bam-balam-nouveautes-re-editions-rock-pop-53</url>
       <image></image>
     </emission>
-    <emission>
+    <emission frequence="le 1eme et 3eme Dimanche du mois">
       <heure>20:30</heure>
       <titre>SPIRIT IN THE NIGHT</titre>
       <description>Post Rock &amp; Indie</description>
@@ -806,7 +894,7 @@
       <url>https://rcv99.org/emissions/spirit-in-the-night-post-rock-indie-18</url>
       <image></image>
     </emission>
-    <emission>
+    <emission frequence="le 2eme et 4eme Dimanche du mois">
       <heure>20:30</heure>
       <titre>X-WAVE</titre>
       <description>New wave, Cold wave, Indus</description>
@@ -814,7 +902,7 @@
       <url>https://rcv99.org/emissions/x-wave-new-wave-cold-wave-indus-82</url>
       <image></image>
     </emission>
-    <emission>
+    <emission frequence="le 1eme et 3eme Dimanche du mois">
       <heure>22:30</heure>
       <titre>PLAYGROUND</titre>
       <description>L'actualité indie rock/pop/folk</description>
@@ -822,7 +910,7 @@
       <url>https://rcv99.org/emissions/playground-nouveautes-indie-rock-58</url>
       <image></image>
     </emission>
-    <emission>
+    <emission frequence="le 2eme et 4eme Dimanche du mois">
       <heure>22:30</heure>
       <titre>TRAPANEL</titre>
       <description>L'émission qui traite de la musique en long et en large</description>
@@ -830,12 +918,20 @@
       <url>https://rcv99.org/emissions/trapanel-musiques-lectures-interviews-anecdotes-104</url>
       <image></image>
     </emission>
+    <emission frequence="le 1eme et 3eme Dimanche du mois">
+      <heure>23:00</heure>
+      <titre>LE PLAN ET LE SON</titre>
+      <description>Mara De Carva analyse un film d'auteur à travers l'image et la bande-son</description>
+      <animateur>Mara De Carva</animateur>
+      <url>https://rcv99.org/emissions/cinema-d-auteur-analyse-des-films-par-leur-image-et-leur-son-117</url>
+      <image></image>
+    </emission>    
     <emission>
       <heure>00:00</heure>
-      <titre>BRUIT DE FOND</titre>
-      <description>Derives nocturnes sur fond de musiques expérimentales, drone, ambient, noise, etc.</description>
+      <titre>ECLECTIK</titre>
+      <description></description>
       <animateur></animateur>
-      <url>https://rcv99.org/emissions/bruit-de-fond-exp-ambient-drone-noise-108</url>
+      <url></url>
       <image></image>
     </emission>
     <emission>
