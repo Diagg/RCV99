@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grille des programmes RCV99</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 10px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #0d0d0d;
+      color: #f0f0f0;
+    }
+    .rk-grille {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .rk-loading {
+      text-align: center;
+      color: #c8c8d4;
+      padding: 20px;
+    }
+    .onglets {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .onglets input[type="radio"] {
+      display: none;
+    }
+    .onglets label {
+      flex: 1 1 0;
+      text-align: center;
+      padding: 14px 4px;
+      margin: 0 3px 0 0;
+      background: #0d0d0d;
+      border: 1px solid #3a3a4a;
+      border-radius: 8px 8px 0 0;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: #b8b8c8;
+      transition: background 0.2s, color 0.2s;
+    }
+    .onglets label:last-of-type { margin-right: 0; }
+    .onglets label:hover {
+      background: #ffffff10;
+      color: #ffffff;
+    }
+    .onglets input[type="radio"]:checked + label {
+      background: #f2cb05;
+      color: #ffffff;
+      border-color: #f2cb05;
+    }
+    .panneaux {
+      flex-basis: 100%;
+      background: #0d0d0d;
+      border: 1px solid #3a3a4a;
+      border-top: none;
+      border-radius: 0 0 8px 8px;
+      padding: 10px 20px;
+    }
+    .panneau { display: none; }
+    .panneau.actif { display: block; }
+    .programme { width: 100%; margin: 10px 0; }
+    .emission {
+      display: block;
+      padding: 8px 6px 2px;
+      text-decoration: none;
+      color: inherit;
+      border-radius: 4px;
+    }
+    a.emission { cursor: pointer; }
+    a.emission:hover { background: #ffffff10; }
+    .ligne-titre {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+    .heure {
+      width: 60px;
+      flex-shrink: 0;
+      font-weight: bold;
+      color: #f2cb05;
+      text-align: left;
+    }
+    .details-emission {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .titre {
+      font-weight: bold;
+      font-size: 1.05em;
+      color: #ffffff;
+    }
+    .frequence {
+      display: inline;
+      font-weight: normal;
+      font-size: 0.75em;
+      color: #9a9aac;
+      text-transform: none;
+      margin-left: 6px;
+      white-space: nowrap;
+    }
+    .animateur {
+      display: block;
+      color: #ffed00;
+      font-style: italic;
+      font-size: 0.75em;
+      margin-top: 2px;
+    }
+    .description {
+      display: block;
+      color: #c8c8d4;
+      font-size: 0.9em;
+      line-height: 1.4;
+      margin-top: 3px;
+    }
+    .separateur {
+      border: none;
+      border-top: 1px solid #3a3a4a;
+      margin: 2px 0 0 0;
+    }
+    @media (max-width: 600px) {
+      .onglets label { font-size: 0.7em; padding: 10px 2px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="rk-grille-container" class="rk-grille">
+    <p class="rk-loading">Chargement de la programmation...</p>
+  </div>
+
+  <script>
+    (async function () {
+      const JSON_URL = "https://diagg.github.io/RCV99/Programme.json";
+      const container = document.getElementById("rk-grille-container");
+
+      function cleanText(val) {
+        return typeof val === "string" ? val.trim() : "";
+      }
+
+      function renderGrille(jours) {
+        const ongletsWrap = document.createElement("div");
+        ongletsWrap.className = "onglets";
+        const panneauxWrap = document.createElement("div");
+        panneauxWrap.className = "panneaux";
+
+        jours.forEach((jour, index) => {
+          const pos = index + 1;
+          const nomJour = cleanText(jour["-nom"] || jour.nom || `Jour ${pos}`);
+
+          const radio = document.createElement("input");
+          radio.type = "radio";
+          radio.name = "rk-jour";
+          radio.id = `rk-tab-${pos}`;
+          if (pos === 1) radio.checked = true;
+
+          const label = document.createElement("label");
+          label.htmlFor = `rk-tab-${pos}`;
+          label.textContent = nomJour;
+
+          const panneau = document.createElement("div");
+          panneau.className = "panneau" + (pos === 1 ? " actif" : "");
+
+          const programme = document.createElement("div");
+          programme.className = "programme";
+
+          const emissions = Array.isArray(jour.emission) ? jour.emission : [];
+          emissions.forEach((em) => {
+            const url = cleanText(em.url);
+            const heure = cleanText(em.heure);
+            const titre = cleanText(em.titre);
+            const frequence = cleanText(em["-frequence"] || em.frequence);
+            const animateur = cleanText(em.animateur);
+            const description = cleanText(em.description);
+
+            const wrapper = document.createElement(url ? "a" : "div");
+            wrapper.className = "emission";
+            if (url) {
+              wrapper.href = url;
+              wrapper.target = "_top";
+            }
+
+            const ligneTitre = document.createElement("div");
+            ligneTitre.className = "ligne-titre";
+
+            const heureSpan = document.createElement("span");
+            heureSpan.className = "heure";
+            heureSpan.textContent = heure;
+
+            const details = document.createElement("div");
+            details.className = "details-emission";
+
+            const titreSpan = document.createElement("span");
+            titreSpan.className = "titre";
+            titreSpan.textContent = titre;
+
+            if (frequence) {
+              const freqSpan = document.createElement("span");
+              freqSpan.className = "frequence";
+              freqSpan.textContent = `(${frequence})`;
+              titreSpan.appendChild(freqSpan);
+            }
+            details.appendChild(titreSpan);
+
+            if (animateur) {
+              const animSpan = document.createElement("span");
+              animSpan.className = "animateur";
+              animSpan.textContent = animateur;
+              details.appendChild(animSpan);
+            }
+
+            if (description) {
+              const descSpan = document.createElement("span");
+              descSpan.className = "description";
+              descSpan.textContent = description;
+              details.appendChild(descSpan);
+            }
+
+            ligneTitre.appendChild(heureSpan);
+            ligneTitre.appendChild(details);
+            wrapper.appendChild(ligneTitre);
+            programme.appendChild(wrapper);
+
+            const hr = document.createElement("hr");
+            hr.className = "separateur";
+            programme.appendChild(hr);
+          });
+
+          panneau.appendChild(programme);
+
+          radio.addEventListener("change", () => {
+            panneauxWrap.querySelectorAll(".panneau").forEach((p) => p.classList.remove("actif"));
+            panneau.classList.add("actif");
+          });
+
+          ongletsWrap.appendChild(radio);
+          ongletsWrap.appendChild(label);
+          panneauxWrap.appendChild(panneau);
+        });
+
+        ongletsWrap.appendChild(panneauxWrap);
+        container.innerHTML = "";
+        container.appendChild(ongletsWrap);
+      }
+
+      try {
+        const res = await fetch(`${JSON_URL}?t=${Date.now()}`, { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        const jours = data?.programmation?.jour;
+        if (!Array.isArray(jours) || !jours.length) throw new Error("JSON invalide");
+        renderGrille(jours);
+      } catch (err) {
+        container.innerHTML = `<p class="rk-loading">Erreur : ${err.message}</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
