@@ -61,8 +61,8 @@
     <emission>
       <heure>18:00</heure>
       <titre>SCHNAPS UP?</titre>
-      <description>Actu Rock &amp; Metal, du local a l'International</description>
-      <animateur>Schnaps &amp; Ben</animateur>
+      <description>Actu Rock &; Metal, du local a l'International</description>
+      <animateur>Schnaps &; Ben</animateur>
       <url>https://rcv-lille.radio-website.com/emissions/nouveautes-rock-metal-punk-62</url>
       <image></image>
     </emission>
@@ -78,7 +78,7 @@
       <heure>20:00</heure>
       <titre>HAPPY MONDAY</titre>
       <description>L'emission Pop</description>
-      <animateur>Ivan, Remi &amp; Franck</animateur>
+      <animateur>Ivan, Remi &; Franck</animateur>
       <url>https://rcv-lille.radio-website.com/emissions/nouveautes-pop-21</url>
       <image></image>
     </emission>
@@ -86,7 +86,7 @@
       <heure>20:00</heure>
       <titre>PASS SONORE</titre>
       <description>Une emission decalée mais sérieuse</description>
-      <animateur>Torero &amp; Tracks</animateur>
+      <animateur>Torero &; Tracks</animateur>
       <url>https://rcv99.org/emissions/pass-sonore-hip-hop-reggae-electro-77</url>
       <image></image>
     </emission>
@@ -144,7 +144,7 @@
       <heure>08:00</heure>
       <titre>L'ESTAMINETTE</titre>
       <description>L'émission culture et société avec Manon, Agathe, Sephora et leurs invités</description>
-      <animateur>Manon, Agathe &amp; Sephora</animateur>
+      <animateur>Manon, Agathe &; Sephora</animateur>
       <url>https://rcv99.org/emissions/l-estaminette-127</url>
       <image></image>
     </emission>    
@@ -167,7 +167,7 @@
     <emission>
       <heure>12:00</heure>
       <titre>ROCKEZ BELLES OREILLES (R.B.O.)</titre>
-      <description>Roots &amp; Roll music (Belles Oreilles)</description>
+      <description>Roots &; Roll music (Belles Oreilles)</description>
       <animateur>Patrick</animateur>
       <url>https://rcv99.org/emissions/rockez-belles-oreilles-r-b-o-roots-n-roll-music-52</url>
       <image></image>
@@ -191,7 +191,7 @@
     <emission frequence="Quinzaine semaine paire">
       <heure>18:00</heure>
       <titre>WATTS UP?</titre>
-      <description>Actu musicale &amp; culturelle</description>
+      <description>Actu musicale &; culturelle</description>
       <animateur>Ben (le Taulier),Audrey «Rudy Cat» et Gael «le Druide»</animateur>
       <url>https://rcv99.org/emissions/actu-musicale-concerts-avec-ben-audrey-rudy-cat-gael-50</url>
       <image></image>
@@ -223,7 +223,7 @@
     <emission>
       <heure>22:00</heure>
       <titre>LIQUID BASS ROOM</titre>
-      <description>Sexy, Groovy, Funky, Liquid Drum &amp; Bass</description>
+      <description>Sexy, Groovy, Funky, Liquid Drum &; Bass</description>
       <animateur>Diagg</animateur>
       <url>https://rcv99.org/emissions/liquid-bass-room-by-diagg-103</url>
       <image></image>
@@ -597,15 +597,15 @@
     <emission frequence="le 2eme et 4eme vendredi du mois">
       <heure>20:30</heure>
       <titre>UNLIKE SESSIONS</titre>
-      <description>Dubstep, Grime amp; U.K Beats</description>
-      <animateur>Hughes, Oneku amp; Jaka</animateur>
+      <description>Dubstep, Grime &amp; U.K Beats</description>
+      <animateur>Hughes, Oneku &amp; Jaka</animateur>
       <url>https://rcv99.org/emissions/unlike-sessions-dubstep-grime-uk-garage-jungle-drum-bass-33</url>
       <image></image>
     </emission>
     <emission frequence="2eme semaine paire du mois">
       <heure>22:30</heure>
       <titre>NORTH BASS</titre>
-      <description>Actu, Talks amp; mix bass music</description>
+      <description>Actu, Talks &amp; mix bass music</description>
       <animateur>Sloan, Acani, BLT et Cailla</animateur>
       <url>https://rcv99.org/emissions/north-bass-actu-talk-mix-bass-music-71</url>
       <image></image>
@@ -613,7 +613,7 @@
     <emission frequence="1er vendredi du mois">
       <heure>22:30</heure>
       <titre>ANALOG MIND</titre>
-      <description>Techno mix amp; talks</description>
+      <description>Techno mix &amp; talks</description>
       <animateur>Hannah</animateur>
       <url>https://rcv99.org/emissions/analog-mind-techno-mix-talks-76</url>
       <image></image>
@@ -695,7 +695,7 @@
      <emission frequence="le 1eme et 3eme samedi du mois">
       <heure>12:00</heure>
       <titre>TOTAL KHEOPS</titre>
-      <description>Total Khéops c'est un voyage, propulsé à 100 000 km/h à bord de la fusée du jazz, avec aucune destination en vue...</description>
+      <description>Total Khéops c'est un voyage, propulsé à 100 000 km/h à bord de la fusée du jazz, sans aucune destination en vue...</description>
       <animateur></animateur>
       <url>https://rcv99.org/emissions/total-kheops-131</url>
       <image></image>
@@ -711,7 +711,7 @@
     <emission>
       <heure>16:00</heure>
       <titre>LA VOIX DU HIP HOP</titre>
-      <description>Rap U.S amp; Rap Francais</description>
+      <description>Rap U.S &amp; Rap Francais</description>
       <animateur>Ivy</animateur>
       <url>https://rcv99.org/emissions/la-voix-du-hip-hop-rap-u-s-rap-francais-34</url>
       <image></image>
@@ -719,15 +719,15 @@
     <emission>
       <heure>17:00</heure>
       <titre>HOT99</titre>
-      <description>Mix Rap amp; discussions</description>
-      <animateur>Dann Lee amp; Friends</animateur>
+      <description>Mix Rap &amp; discussions</description>
+      <animateur>Dann Lee &amp; Friends</animateur>
       <url>https://rcv99.org/emissions/hot99-hip-hop-vinyl-culture-59</url>
       <image></image>
     </emission>
     <emission>
       <heure>18:00</heure>
       <titre>SPORTING CLUB</titre>
-      <description>Nouveautes amp; Classics Global Groove</description>
+      <description>Nouveautes &amp; Classics Global Groove</description>
       <animateur>Zoymista</animateur>
       <url>https://rcv99.org/emissions/sporting-club-ethio-jazz-afro-beat-groove-66</url>
       <image></image>
@@ -743,7 +743,7 @@
     <emission>
       <heure>20:30</heure>
       <titre>MY FAVOURITE EVERYTHING</titre>
-      <description>Vinyl Lovers amp; Underground Fun</description>
+      <description>Vinyl Lovers &amp; Underground Fun</description>
       <animateur></animateur>
       <url>https://rcv99.org/emissions/my-favourite-everything-vinyl-mix-indie-oldies-and-rarities-98</url>
       <image></image>
