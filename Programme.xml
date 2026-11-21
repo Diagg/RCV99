@@ -85,8 +85,8 @@
     <emission frequence="1er et 3e lundi du mois">
       <heure>20:00</heure>
       <titre>PASS SONORE</titre>
-      <description>Une emission decalée mais sérieuse</description>
-      <animateur>Torero &; Tracks</animateur>
+      <description>Une émission décalée mais sérieuse</description>
+      <animateur>Torero &amp; Tracks</animateur>
       <url>https://rcv99.org/emissions/pass-sonore-hip-hop-reggae-electro-77</url>
       <image></image>
     </emission>
@@ -167,7 +167,7 @@
     <emission>
       <heure>12:00</heure>
       <titre>ROCKEZ BELLES OREILLES (R.B.O.)</titre>
-      <description>Roots &; Roll music (Belles Oreilles)</description>
+      <description>Roots &amp; Roll music (Belles Oreilles)</description>
       <animateur>Patrick</animateur>
       <url>https://rcv99.org/emissions/rockez-belles-oreilles-r-b-o-roots-n-roll-music-52</url>
       <image></image>
@@ -191,7 +191,7 @@
     <emission frequence="Quinzaine semaine paire">
       <heure>18:00</heure>
       <titre>WATTS UP?</titre>
-      <description>Actu musicale &; culturelle</description>
+      <description>Actu musicale &amp; culturelle</description>
       <animateur>Ben (le Taulier),Audrey «Rudy Cat» et Gael «le Druide»</animateur>
       <url>https://rcv99.org/emissions/actu-musicale-concerts-avec-ben-audrey-rudy-cat-gael-50</url>
       <image></image>
@@ -223,7 +223,7 @@
     <emission>
       <heure>22:00</heure>
       <titre>LIQUID BASS ROOM</titre>
-      <description>Sexy, Groovy, Funky, Liquid Drum &; Bass</description>
+      <description>Sexy, Groovy, Funky, Liquid Drum &amp; Bass</description>
       <animateur>Diagg</animateur>
       <url>https://rcv99.org/emissions/liquid-bass-room-by-diagg-103</url>
       <image></image>
@@ -369,7 +369,7 @@
     <emission frequence="1er et 3eme mercredi">
       <heure>20:30</heure>
       <titre>THE SPATEN PROJECT</titre>
-      <description>Nouveautes Rock, Hip Hop, Electro, Groove...</description>
+      < description> Nouveautés Rock, Hip Hop, Electro, Groove...</description>
       <animateur></animateur>
       <url>https://rcv99.org/emissions/the-spaten-project-nouveautes-indie-hip-hop-electro-soul-10</url>
       <image></image>
