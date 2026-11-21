@@ -68,13 +68,13 @@
     </emission>
     <emission>
       <heure>19:00</heure>
-      <titre>PYONGYANG CITY ROCKERS</titre>
-      <description></description>
+      <titre>Schrödinger Punk</titre>
+      <description>Trop kawaii pour être punk, trop kapunk pour être ouaille</description>
       <animateur></animateur>
       <url></url>
       <image></image>
     </emission>
-    <emission frequence="1er et 3e lundi du mois">
+    <emission frequence="2eme et 4e lundi du mois">
       <heure>20:00</heure>
       <titre>HAPPY MONDAY</titre>
       <description>L'emission Pop</description>
@@ -82,7 +82,7 @@
       <url>https://rcv-lille.radio-website.com/emissions/nouveautes-pop-21</url>
       <image></image>
     </emission>
-    <emission frequence="2eme et 4e lundi du mois">
+    <emission frequence="1er et 3e lundi du mois">
       <heure>20:00</heure>
       <titre>PASS SONORE</titre>
       <description>Une emission decalée mais sérieuse</description>
@@ -91,7 +91,7 @@
       <image></image>
     </emission>
     <emission>
-      <heure>21:15</heure>
+      <heure>21:00</heure>
       <titre>HAVE A TRIP</titre>
       <description>L'emission anti 'easy-listening'</description>
       <animateur>Deekool</animateur>
@@ -216,7 +216,7 @@
       <heure>21:00</heure>
       <titre>SYNCOPEE</titre>
       <description>Textes et poésie sur fond d'électro de niche</description>
-      <animateur>Audrey</animateur>
+      <animateur>Maleecya</animateur>
       <url>https://rcv99.org/emissions/syncopee-130</url>
       <image></image>
     </emission>
@@ -362,7 +362,7 @@
       <heure>20:30</heure>
       <titre>VYNIL ME</titre>
       <description>Strictly Vinyl Radio Show</description>
-      <animateur>Joe Dahlin et ses invites</animateur>
+      <animateur>Joe Dahlin et ses invités</animateur>
       <url>https://rcv99.org/emissions/vynil-me-vinyl-mix-by-joe-dahlin-guests-83</url>
       <image></image>
     </emission>
@@ -391,7 +391,7 @@
       <image></image>
     </emission>
     <emission>
-      <heure>00:35</heure>
+      <heure>01:00</heure>
       <titre>ENTER SANDMAN</titre>
       <description>Playlist pour noctambules</description>
       <animateur></animateur>
@@ -435,7 +435,7 @@
     <emission>
       <heure>12:00</heure>
       <titre>SPORTING CLUB</titre>
-      <description>Nouveautes &amp; Classics Global Groove</description>
+      <description>Jazz and beyond</description>
       <animateur>Zoymista</animateur>
       <url>https://rcv99.org/emissions/sporting-club-ethio-jazz-afro-beat-groove-66</url>
       <image></image>
@@ -459,7 +459,7 @@
     <emission>
       <heure>18:00</heure>
       <titre>WAGWAAANNN ?!</titre>
-      <description>L'agenda lillois des concerts et soirees du week-end</description>
+      <description>L'agenda lillois des concerts et soirées du week-end</description>
       <animateur>Djay &amp; Ben</animateur>
       <url>https://rcv99.org/emissions/wagwaaannn-actu-concerts-du-week-end-a-lille-61</url>
       <image></image>
@@ -467,7 +467,7 @@
     <emission>
       <heure>19:30</heure>
       <titre>L'HEURE DU CRIME</titre>
-      <description>L'actu disques et concerts Métal en direct du Carre Des Halles</description>
+      <description>L'actu disques et concerts métal</description>
       <animateur>Stef Xtraks</animateur>
       <url>https://rcv99.org/emissions/l-heure-du-crime-l-emission-metal-en-direct-du-carre-des-halles-28</url>
       <image></image>
@@ -602,7 +602,7 @@
       <url>https://rcv99.org/emissions/unlike-sessions-dubstep-grime-uk-garage-jungle-drum-bass-33</url>
       <image></image>
     </emission>
-    <emission frequence="2eme semaine paire">
+    <emission frequence="2eme semaine paire du mois">
       <heure>22:30</heure>
       <titre>NORTH BASS</titre>
       <description>Actu, Talks amp; mix bass music</description>
@@ -628,7 +628,7 @@
     </emission>    
     <emission frequence="le 3eme vendredi du mois">
       <heure>00:30</heure>
-      <titre>TROP TARD POUR ETRE COOL</titre>
+      <titre>In Situ</titre>
       <description>Décryptage des sous-cultures du disco au Frenchcore !</description>
       <animateur>Dalil</animateur>
       <url></url>
@@ -638,12 +638,12 @@
       <heure>00:30</heure>
       <titre>DERIVES ELECTRONIQUES</titre>
       <description>musiques électroniques underground</description>
-      <animateur>Remy</animateur>
+      <animateur>Remy & Jeff</animateur>
       <url>https://rcv99.org/emissions/derives-electroniques-134</url>
       <image></image>
     </emission>    
     <emission>
-      <heure>01:00</heure>
+      <heure>02:00</heure>
       <titre>ENTER SANDMAN</titre>
       <description>Playlist pour noctambules</description>
       <animateur></animateur>
@@ -684,7 +684,7 @@
       <url>https://rcv99.org/emissions/have-a-travel-musiques-d-ailleurs-27</url>
       <image></image>
     </emission>
-    <emission frequence="le 1eme et 3eme samedi du mois">
+    <emission frequence="le 2eme et 4eme samedi du mois">
       <heure>12:00</heure>
       <titre>JAZZ ATTITUDE</titre>
       <description>L'actualite du Jazz</description>
@@ -692,7 +692,7 @@
       <url>https://rcv99.org/emissions/jazz-attitude-l-actualite-du-jazz-avec-sir-ali-73</url>
       <image></image>
     </emission>
-     <emission frequence="le 2eme et 4eme samedi du mois">
+     <emission frequence="le 1eme et 3eme samedi du mois">
       <heure>12:00</heure>
       <titre>TOTAL KHEOPS</titre>
       <description>Total Khéops c'est un voyage, propulsé à 100 000 km/h à bord de la fusée du jazz, avec aucune destination en vue...</description>
