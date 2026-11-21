@@ -1,0 +1,1001 @@
+{
+    "xml-stylesheet": {},
+    "programmation": {
+        "-semaine": "Programmation hebdomadaire",
+        "jour": [
+            {
+                "-nom": "Lundi",
+                "emission": [
+                    {
+                        "heure": "07:30",
+                        "titre": "RCV IN FRENCH",
+                        "description": "Selection francophone",
+                        "animateur": "Patrick (Belles Oreilles)",
+                        "url": "https://rcv-lille.radio-website.com/emissions/selection-francophone-69",
+                        "image": {}
+                    },
+                    {
+                        "heure": "08:00",
+                        "titre": "DIG DIG DIGGERS",
+                        "description": "L'émission musicale des radios FERAROCK",
+                        "animateur": "FERAROCK",
+                        "url": "https://rcv-lille.radio-website.com/emissions/l-emission-des-radios-ferarock-30",
+                        "image": {}
+                    },
+                    {
+                        "heure": "09:00",
+                        "titre": "MORNING GLORY",
+                        "description": "Playlist Folk, Rock Pop, Soul...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "12:00",
+                        "titre": "BIG BAZOUNGA BOOGALOO",
+                        "description": "une émission de Radio Béton à Tours",
+                        "animateur": "DJ Gilbert Nazal & DJ Keke",
+                        "url": "https://rcv-lille.radio-website.com/emissions/garage-soul-rock-n-roll-freakbeat-psychedelic-rhythm-n-blues-hammond-surf-114",
+                        "image": {}
+                    },
+                    {
+                        "heure": "13:00",
+                        "titre": "REPORTAGES REGIONAUX",
+                        "description": "realises par les radios membres de la FRANF",
+                        "animateur": {},
+                        "url": "https://rcv-lille.radio-website.com/emissions/reportages-regionaux-des-radios-de-la-franf-40",
+                        "image": {}
+                    },
+                    {
+                        "heure": "14:00",
+                        "titre": "SUNNY AFTERNOON",
+                        "description": "Playlist Hip Hop, Global Groove, Electro...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "17:00",
+                        "titre": "LES DERNIERES TENTATIONS DE ZEBRA",
+                        "description": "Nouveautes musicales",
+                        "animateur": "DJ Zebra",
+                        "url": "https://rcv-lille.radio-website.com/emissions/news-rock-groove-indes-avec-dj-zebra-93",
+                        "image": {}
+                    },
+                    {
+                        "heure": "18:00",
+                        "titre": "SCHNAPS UP?",
+                        "description": "Actu Rock & Metal, du local à l'International",
+                        "animateur": "Schnaps & Ben",
+                        "url": "https://rcv-lille.radio-website.com/emissions/nouveautes-rock-metal-punk-62",
+                        "image": {}
+                    },
+                    {
+                        "heure": "19:00",
+                        "titre": "Schrödinger Punk",
+                        "description": "Trop kawaii pour être punk, trop kapunk pour être ouaille",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "2eme et 4e lundi du mois",
+                        "heure": "20:00",
+                        "titre": "HAPPY MONDAY",
+                        "description": "L'emission Pop",
+                        "animateur": "Ivan, Remi & Franck",
+                        "url": "https://rcv-lille.radio-website.com/emissions/nouveautes-pop-21",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "1er et 3e lundi du mois",
+                        "heure": "20:00",
+                        "titre": "PASS SONORE",
+                        "description": "Une émission décalée mais sérieuse",
+                        "animateur": "Torero & Tracks",
+                        "url": "https://rcv99.org/emissions/pass-sonore-hip-hop-reggae-electro-77",
+                        "image": {}
+                    },
+                    {
+                        "heure": "21:00",
+                        "titre": "HAVE A TRIP",
+                        "description": "L'emission anti 'easy-listening'",
+                        "animateur": "Deekool",
+                        "url": "https://rcv-lille.radio-website.com/emissions/anti-easy-listening-music-8",
+                        "image": {}
+                    },
+                    {
+                        "heure": "23:30",
+                        "titre": "LA VIE DES MICROBES",
+                        "description": "Agenda evenements underground",
+                        "animateur": "Stéphane",
+                        "url": "https://rcv99.org/emissions/la-vie-des-microbes-agenda-evenements-undergound-84",
+                        "image": {}
+                    },
+                    {
+                        "heure": "00:30",
+                        "titre": "PATTES DE VELOURS",
+                        "description": "Sélection musicale(une émission de SOL FM à Lyon)",
+                        "animateur": "Petit Pierre ",
+                        "url": "https://rcv99.org/emissions/pattes-de-velours-111",
+                        "image": {}
+                    },
+                    {
+                        "heure": "01:30",
+                        "titre": "ENTER SANDMAN",
+                        "description": "Playlist pour noctambules",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    }
+                ]
+            },
+            {
+                "-nom": "Mardi",
+                "emission": [
+                    {
+                        "heure": "07:30",
+                        "titre": "RCV IN FRENCH",
+                        "description": "Selection francophone (Belles Oreilles)",
+                        "animateur": "Patrick",
+                        "url": "https://rcv-lille.radio-website.com/emissions/selection-francophone-69",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "En alternance avec L'Estaminette",
+                        "heure": "08:00",
+                        "titre": "PLAYGROUND",
+                        "description": "L'actualité indie rock/pop/folk",
+                        "animateur": "Phil Indie",
+                        "url": "https://rcv99.org/emissions/nouveautes-indie-rock-58",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "En alternance avec Playground",
+                        "heure": "08:00",
+                        "titre": "L'ESTAMINETTE",
+                        "description": "L'émission culture et société avec Manon, Agathe, Sephora et leurs invités",
+                        "animateur": "Manon, Agathe & Sephora",
+                        "url": "https://rcv99.org/emissions/l-estaminette-127",
+                        "image": {}
+                    },
+                    {
+                        "heure": "09:30",
+                        "titre": "MORNING GLORY",
+                        "description": "Playlist Folk, Rock Pop, Soul...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "11:45",
+                        "titre": "REPORTAGES REGIONAUX",
+                        "description": "réalisés par les radios membres de la FRANF",
+                        "animateur": {},
+                        "url": "https://rcv-lille.radio-website.com/emissions/reportages-regionaux-des-radios-de-la-franf-40",
+                        "image": {}
+                    },
+                    {
+                        "heure": "12:00",
+                        "titre": "ROCKEZ BELLES OREILLES (R.B.O.)",
+                        "description": "Roots & Roll music (Belles Oreilles)",
+                        "animateur": "Patrick",
+                        "url": "https://rcv99.org/emissions/rockez-belles-oreilles-r-b-o-roots-n-roll-music-52",
+                        "image": {}
+                    },
+                    {
+                        "heure": "13:30",
+                        "titre": "SUNNY AFTERNOON",
+                        "description": "Playlist Hip Hop, Global Groove, Electro...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "Quinzaine semaine impaire",
+                        "heure": "16:30",
+                        "titre": "SKUUURT",
+                        "description": "l'émission Hip Hop sans langue de bois",
+                        "animateur": "SCOLTI/KARO/DAN/LILIA",
+                        "url": "https://rcv99.org/emissions/skuuurt-rap-hip-hop-culture-109",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "Quinzaine semaine paire",
+                        "heure": "18:00",
+                        "titre": "WATTS UP?",
+                        "description": "Actu musicale & culturelle",
+                        "animateur": "Ben (le Taulier),Audrey «Rudy Cat» et Gael «le Druide»",
+                        "url": "https://rcv99.org/emissions/actu-musicale-concerts-avec-ben-audrey-rudy-cat-gael-50",
+                        "image": {}
+                    },
+                    {
+                        "heure": "19:30",
+                        "titre": "LES DENTS DANS LE SHAKER",
+                        "description": "Post Punk/Cold Wave/Synth/Punk/Noise/Indus/EBM/SHoegaze/Experimental/Electronics/DnB/Jungle",
+                        "animateur": {},
+                        "url": "https://rcv99.org/emissions/indus-noise-electronic-6",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "une semaine sur deux",
+                        "heure": "21:00",
+                        "titre": "WOOD BLOCK",
+                        "description": "Emission poetique et musicale",
+                        "animateur": "Olivier et ses invités",
+                        "url": "https://rcv99.org/emissions/wood-block-poesie-chansons-et-etats-d-ame-19",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "une semaine sur deux",
+                        "heure": "21:00",
+                        "titre": "SYNCOPEE",
+                        "description": "Textes et poésie sur fond d'électro de niche",
+                        "animateur": "Maleecya",
+                        "url": "https://rcv99.org/emissions/syncopee-130",
+                        "image": {}
+                    },
+                    {
+                        "heure": "22:00",
+                        "titre": "LIQUID BASS ROOM",
+                        "description": "Sexy, Groovy, Funky, Liquid Drum & Bass",
+                        "animateur": "Diagg",
+                        "url": "https://rcv99.org/emissions/liquid-bass-room-by-diagg-103",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "Quinzaine semaine paires",
+                        "heure": "23:00",
+                        "titre": "DJ MOUSENESS",
+                        "description": "Electro ambiant",
+                        "animateur": "Caroline",
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "1re semaine impaire du mois",
+                        "heure": "23:00",
+                        "titre": "NOMAD",
+                        "description": "Simulateur de dérive urbaine",
+                        "animateur": "Kubebe et Lux Totema",
+                        "url": "https://rcv99.org/emissions/simulateur-de-derive-urbaine-106",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "2me semaine impaire du mois",
+                        "heure": "23:00",
+                        "titre": "ZIGGOURATT",
+                        "description": "Voyage cerebral",
+                        "animateur": "Wakarm",
+                        "url": "https://rcv99.org/emissions/la-ziggouratt-132",
+                        "image": {}
+                    },
+                    {
+                        "heure": "00:00",
+                        "titre": "TROU NOIR",
+                        "description": "Rap, dub, lecture & création sonore (co-production PFM à Arras et RCV99)",
+                        "animateur": "Luc, Jeff Bibs et Romain",
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "01:00",
+                        "titre": "ECLEKTIK",
+                        "description": "Un Espace Musical pour nous faire les témoins du Passé",
+                        "animateur": "Haka-Hata",
+                        "url": "https://rcv99.org/emissions/mixtapes-by-haka-hata-64",
+                        "image": {}
+                    },
+                    {
+                        "heure": "03:00",
+                        "titre": "ENTER SANDMAN",
+                        "description": "Playlist pour noctambules du Présent et du Futur",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    }
+                ]
+            },
+            {
+                "-nom": "Mercredi",
+                "emission": [
+                    {
+                        "heure": "07:30",
+                        "titre": "RCV IN FRENCH",
+                        "description": "Selection francophone (Belles Oreilles)",
+                        "animateur": "Patrick ",
+                        "url": "https://rcv99.org/emissions/rcv-in-french-selection-francophone-69",
+                        "image": {}
+                    },
+                    {
+                        "heure": "08:00",
+                        "titre": "LES Z'ENTONNOIRS",
+                        "description": "Talk Show actu & musiques par des patients et infirmiers en psychiatrie a Roubaix",
+                        "animateur": {},
+                        "url": "https://rcv99.org/emissions/les-z-entonnoirs-actu-chroniques-41",
+                        "image": {}
+                    },
+                    {
+                        "heure": "09:00",
+                        "titre": "MORNING GLORY",
+                        "description": "Playlist Folk, Rock Pop, Soul...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "11:45",
+                        "titre": "REPORTAGES REGIONAUX",
+                        "description": "réalisés par les radios membres de la FRANF",
+                        "animateur": {},
+                        "url": "https://rcv-lille.radio-website.com/emissions/reportages-regionaux-des-radios-de-la-franf-40",
+                        "image": {}
+                    },
+                    {
+                        "heure": "12:00",
+                        "titre": "BAM BALAM",
+                        "description": "Nouveautes et re-editions Pop & Rock",
+                        "animateur": "Papy Bam",
+                        "url": "https://rcv99.org/emissions/bam-balam-nouveautes-re-editions-rock-pop-53",
+                        "image": {}
+                    },
+                    {
+                        "heure": "13:30",
+                        "titre": "SUNNY AFTERNOON",
+                        "description": "Playlist Hip Hop, Global Groove, Electro...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "17:00",
+                        "titre": "HOT99",
+                        "description": "Mix Rap & discussions",
+                        "animateur": "Dann Lee & Friends",
+                        "url": "https://rcv99.org/emissions/hot99-hip-hop-vinyl-culture-59",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "En alternance avec Reeeload",
+                        "heure": "18:00",
+                        "titre": "L'ESTAMINETTE",
+                        "description": "L'émission culture et société avec Manon, Agathe, Sephora et leurs invités",
+                        "animateur": "Manon, Agathe & Sephora",
+                        "url": "https://rcv99.org/emissions/l-estaminette-127",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "En alternance avec l'Estaminette",
+                        "heure": "18:00",
+                        "titre": "REEELOAD!",
+                        "description": "Nouveautes Bass Music & Electronic",
+                        "animateur": "Pelik",
+                        "url": "https://rcv99.org/emissions/reeeload-nouveautes-classics-bass-music-avec-pelik-86",
+                        "image": {}
+                    },
+                    {
+                        "heure": "19:30",
+                        "titre": "SKUUURT",
+                        "description": "l'émission Hip Hop sans langue de bois",
+                        "animateur": "SCOLTI/KARO/DAN/LILIA",
+                        "url": "https://rcv99.org/emissions/skuuurt-rap-hip-hop-culture-109",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "2eme et 4eme mercredi",
+                        "heure": "20:30",
+                        "titre": "VYNIL ME",
+                        "description": "Strictly Vinyl Radio Show",
+                        "animateur": "Joe Dahlin et ses invités",
+                        "url": "https://rcv99.org/emissions/vynil-me-vinyl-mix-by-joe-dahlin-guests-83",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "1er et 3eme mercredi",
+                        "heure": "20:30",
+                        "titre": "THE SPATEN PROJECT",
+                        "description": " Nouveautés Rock, Hip Hop, Electro, Groove...",
+                        "animateur": {},
+                        "url": "https://rcv99.org/emissions/the-spaten-project-nouveautes-indie-hip-hop-electro-soul-10",
+                        "image": {}
+                    },
+                    {
+                        "heure": "21:35",
+                        "titre": "SWING A LING SOUND",
+                        "description": "Ska, Rocksteady, Reggae",
+                        "animateur": "Selector DDay",
+                        "url": "https://rcv99.org/emissions/swing-a-ling-sound-ska-rocksteady-reggae-3",
+                        "image": {}
+                    },
+                    {
+                        "heure": "00:00",
+                        "titre": "L'AGE DU DIESEL",
+                        "description": "un thème, un mix ...  (Une émission de SOL FM à Lyon)",
+                        "animateur": "Joey Perfecto",
+                        "url": "https://rcv99.org/emissions/l-age-du-diesel-mix-thematiques-115",
+                        "image": {}
+                    },
+                    {
+                        "heure": "01:00",
+                        "titre": "ENTER SANDMAN",
+                        "description": "Playlist pour noctambules",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    }
+                ]
+            },
+            {
+                "-nom": "Jeudi",
+                "emission": [
+                    {
+                        "heure": "07:30",
+                        "titre": "RCV IN FRENCH",
+                        "description": "Sélection francophone (Belles Oreilles)",
+                        "animateur": "Patrick",
+                        "url": "https://rcv99.org/emissions/rcv-in-french-selection-francophone-69",
+                        "image": {}
+                    },
+                    {
+                        "heure": "08:00",
+                        "titre": "CE N'EST QUE DE LA MUSIQUE",
+                        "description": "Voyage dans le monde du rock'n'roll, mais pas que...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "09:00",
+                        "titre": "MORNING GLORY",
+                        "description": "Playlist Folk, Rock Pop, Soul...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "11:45",
+                        "titre": "REPORTAGES REGIONAUX",
+                        "description": "réalisés par les radios membres de la FRANF",
+                        "animateur": {},
+                        "url": "https://rcv-lille.radio-website.com/emissions/reportages-regionaux-des-radios-de-la-franf-40",
+                        "image": {}
+                    },
+                    {
+                        "heure": "12:00",
+                        "titre": "SPORTING CLUB",
+                        "description": "Jazz and beyond",
+                        "animateur": "Zoymista",
+                        "url": "https://rcv99.org/emissions/sporting-club-ethio-jazz-afro-beat-groove-66",
+                        "image": {}
+                    },
+                    {
+                        "heure": "13:30",
+                        "titre": "SUNNY AFTERNOON",
+                        "description": "Playlist Hip Hop, Global Groove, Electro...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "17:00",
+                        "titre": "HAVE A TRAVEL",
+                        "description": "Musiques d'ailleurs",
+                        "animateur": "Deekool",
+                        "url": "https://rcv99.org/emissions/have-a-travel-musiques-d-ailleurs-27",
+                        "image": {}
+                    },
+                    {
+                        "heure": "18:00",
+                        "titre": "WAGWAAANNN ?!",
+                        "description": "L'agenda lillois des concerts et soirées du week-end",
+                        "animateur": "Djay & Ben",
+                        "url": "https://rcv99.org/emissions/wagwaaannn-actu-concerts-du-week-end-a-lille-61",
+                        "image": {}
+                    },
+                    {
+                        "heure": "19:30",
+                        "titre": "L'HEURE DU CRIME",
+                        "description": "L'actu disques et concerts métal",
+                        "animateur": "Stef Xtraks",
+                        "url": "https://rcv99.org/emissions/l-heure-du-crime-l-emission-metal-en-direct-du-carre-des-halles-28",
+                        "image": {}
+                    },
+                    {
+                        "heure": "20:30",
+                        "titre": "CRADLE ROCK",
+                        "description": "Blues, Rock & Southern Rock",
+                        "animateur": "Jean Cradle",
+                        "url": "https://rcv99.org/emissions/cradle-rock-blues-southern-rock-hard-classic-rock-13",
+                        "image": {}
+                    },
+                    {
+                        "heure": "21:45",
+                        "titre": "MEDLEY",
+                        "description": "Blues, Boogie Rock, Anthologies 70's,Hard & Heavy Rock, Metal",
+                        "animateur": "Phil et Dr70's",
+                        "url": "https://rcv99.org/emissions/medley-blues-boogie-rock-southern-rock-classic-rock-hard-heavy-metal-29",
+                        "image": {}
+                    },
+                    {
+                        "heure": "00:00",
+                        "titre": "HARD TIME MACHINE",
+                        "description": "La machine a voyager dans le Hard Rock",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "01:00",
+                        "titre": "ENTER SANDMAN",
+                        "description": "Playlist pour noctambules",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    }
+                ]
+            },
+            {
+                "-nom": "Vendredi",
+                "emission": [
+                    {
+                        "heure": "07:30",
+                        "titre": "RCV IN FRENCH",
+                        "description": "Sélection francophone (Belles Oreilles)",
+                        "animateur": "Patrick ",
+                        "url": "https://rcv99.org/emissions/rcv-in-french-selection-francophone-69",
+                        "image": {}
+                    },
+                    {
+                        "heure": "08:00",
+                        "titre": "DE LA LUMIERE AU GRENIER",
+                        "description": "Tonton JC dépoussière ses vinyles, CD et cassettes venus des années 60, 70, 80 et plus si affinités.",
+                        "animateur": "Tonton JC",
+                        "url": "https://rcv99.org/emissions/de-la-lumiere-au-grenier-vintage-sound-rock-culture-112",
+                        "image": {}
+                    },
+                    {
+                        "heure": "09:00",
+                        "titre": "MORNING GLORY",
+                        "description": "Playlist Folk, Rock Pop, Soul...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "11:45",
+                        "titre": "REPORTAGES REGIONAUX",
+                        "description": "réalisés par les radios membres de la FRANF",
+                        "animateur": {},
+                        "url": "https://rcv-lille.radio-website.com/emissions/reportages-regionaux-des-radios-de-la-franf-40",
+                        "image": {}
+                    },
+                    {
+                        "heure": "12:00",
+                        "titre": "WAGWAAANNN ?!",
+                        "description": "L'agenda lillois des concerts et soirees du week-end",
+                        "animateur": "Djay & Ben",
+                        "url": "https://rcv99.org/emissions/wagwaaannn-actu-concerts-du-week-end-a-lille-61",
+                        "image": {}
+                    },
+                    {
+                        "heure": "13:30",
+                        "titre": "SUNNY AFTERNOON",
+                        "description": "Playlist Hip Hop, Global Groove, Electro...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "16:00",
+                        "titre": "FUNK YOUR HEAD",
+                        "description": "Mix Afro Beat, Disco, Funk...",
+                        "animateur": "Housatonic",
+                        "url": "https://rcv99.org/emissions/funk-your-head-vinyl-mix-afro-beat-funk-disco-25",
+                        "image": {}
+                    },
+                    {
+                        "heure": "17:00",
+                        "titre": "RADAR CULTURE",
+                        "description": "Actu culture et musique avec Korrea, Audrey, Olivier et leurs invités",
+                        "animateur": "Korrea, Audrey & Olivier",
+                        "url": "https://rcv99.org/emissions/radar-culture-culture-musique-societe-et-bonne-humeur-125",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "1er et 3eme vendredi",
+                        "heure": "18:00",
+                        "titre": "SEMAPHORE",
+                        "description": "Sémaphore invite les artistes locaux pour évoquer leur actualité. Le cinéma y est aussi mis à l'honneur",
+                        "animateur": "JF, Christophe & Marie",
+                        "url": "https://rcv99.org/emissions/semaphore-des-groupes-du-nord-du-rock-du-cine-124",
+                        "image": {}
+                    },
+                    {
+                        "heure": "19:30",
+                        "titre": "AUHUITIEME",
+                        "description": "Tech/house/funk/newwave/electro/rock",
+                        "animateur": "ECLPET",
+                        "url": "https://rcv99.org/emissions/au-huitieme-electro-techno-house-new-wave-funk-avec-eclept-122",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 1er et 3eme vendredi du mois",
+                        "heure": "20:30",
+                        "titre": "MARIAH CALAIS",
+                        "description": "Que des tubes et des Go sûres !",
+                        "animateur": "DJ Cut Kebab & Choucroute Selecta",
+                        "url": "https://rcv99.org/emissions/mariah-calais-que-des-tubes-et-des-go-sures-107",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 2eme et 4eme vendredi du mois",
+                        "heure": "20:30",
+                        "titre": "UNLIKE SESSIONS",
+                        "description": "Dubstep, Grime & U.K Beats",
+                        "animateur": "Hughes, Oneku & Jaka",
+                        "url": "https://rcv99.org/emissions/unlike-sessions-dubstep-grime-uk-garage-jungle-drum-bass-33",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "2eme semaine paire du mois",
+                        "heure": "22:30",
+                        "titre": "NORTH BASS",
+                        "description": "Actu, Talks & mix bass music",
+                        "animateur": "Sloan, Acani, BLT et Cailla",
+                        "url": "https://rcv99.org/emissions/north-bass-actu-talk-mix-bass-music-71",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "1er vendredi du mois",
+                        "heure": "22:30",
+                        "titre": "ANALOG MIND",
+                        "description": "Techno mix & talks",
+                        "animateur": "Hannah",
+                        "url": "https://rcv99.org/emissions/analog-mind-techno-mix-talks-76",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "3eme vendredi du mois",
+                        "heure": "22:30",
+                        "titre": "Interference",
+                        "description": "L'émission propose des introductions à des sous-genres de musique électronique, la présentation d'artistes, des invitations, des DJ-sets, du VJING.",
+                        "animateur": "Arthygan",
+                        "url": "https://rcv99.org/emissions/interference-musique-electronique-experimentale-123",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 3eme vendredi du mois",
+                        "heure": "00:30",
+                        "titre": "In Situ",
+                        "description": "Décryptage des sous-cultures du disco au Frenchcore !",
+                        "animateur": "Dalil",
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 1eme vendredi du mois",
+                        "heure": "00:30",
+                        "titre": "DERIVES ELECTRONIQUES",
+                        "description": "musiques électroniques underground",
+                        "animateur": "Remy & Jeff",
+                        "url": "https://rcv99.org/emissions/derives-electroniques-134",
+                        "image": {}
+                    },
+                    {
+                        "heure": "02:00",
+                        "titre": "ENTER SANDMAN",
+                        "description": "Playlist pour noctambules",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    }
+                ]
+            },
+            {
+                "-nom": "Samedi",
+                "emission": [
+                    {
+                        "heure": "06:00",
+                        "titre": "MORNING GLORY",
+                        "description": "Playlist Folk, Rock Pop, Soul...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "09:00",
+                        "titre": "CE N'EST QUE DE LA MUSIQUE",
+                        "description": "Voyage dans le monde du rock'n'roll, mais pas que...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "10:00",
+                        "titre": "LES DERNIERES TENTATIONS DE ZEBRA",
+                        "description": "Nouveautés musicales",
+                        "animateur": "DJ Zebra",
+                        "url": "https://rcv99.org/emissions/les-dernieres-tentations-de-zebra-news-rock-groove-indes-avec-dj-zebra-93",
+                        "image": {}
+                    },
+                    {
+                        "heure": "11:00",
+                        "titre": "HAVE A TRAVEL",
+                        "description": "Musiques d'ailleurs",
+                        "animateur": "Deekool",
+                        "url": "https://rcv99.org/emissions/have-a-travel-musiques-d-ailleurs-27",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 2eme et 4eme samedi du mois",
+                        "heure": "12:00",
+                        "titre": "JAZZ ATTITUDE",
+                        "description": "L'actualite du Jazz",
+                        "animateur": "Sir Ali",
+                        "url": "https://rcv99.org/emissions/jazz-attitude-l-actualite-du-jazz-avec-sir-ali-73",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 1eme et 3eme samedi du mois",
+                        "heure": "12:00",
+                        "titre": "TOTAL KHEOPS",
+                        "description": "Total Khéops c'est un voyage, propulsé à 100 000 km/h à bord de la fusée du jazz, sans aucune destination en vue...",
+                        "animateur": {},
+                        "url": "https://rcv99.org/emissions/total-kheops-131",
+                        "image": {}
+                    },
+                    {
+                        "heure": "14:00",
+                        "titre": "SWING A LING SOUND",
+                        "description": "Ska, Rocksteady, Reggae",
+                        "animateur": "Selector DDay",
+                        "url": "https://rcv99.org/emissions/swing-a-ling-sound-ska-rocksteady-reggae-3",
+                        "image": {}
+                    },
+                    {
+                        "heure": "16:00",
+                        "titre": "LA VOIX DU HIP HOP",
+                        "description": "Rap U.S & Rap Francais",
+                        "animateur": "Ivy",
+                        "url": "https://rcv99.org/emissions/la-voix-du-hip-hop-rap-u-s-rap-francais-34",
+                        "image": {}
+                    },
+                    {
+                        "heure": "17:00",
+                        "titre": "HOT99",
+                        "description": "Mix Rap & discussions",
+                        "animateur": "Dann Lee & Friends",
+                        "url": "https://rcv99.org/emissions/hot99-hip-hop-vinyl-culture-59",
+                        "image": {}
+                    },
+                    {
+                        "heure": "18:00",
+                        "titre": "SPORTING CLUB",
+                        "description": "Nouveautes & Classics Global Groove",
+                        "animateur": "Zoymista",
+                        "url": "https://rcv99.org/emissions/sporting-club-ethio-jazz-afro-beat-groove-66",
+                        "image": {}
+                    },
+                    {
+                        "heure": "19:30",
+                        "titre": "TOURNEE GENERALE",
+                        "description": "Apéro électronique entre Acid mental, Techno planante et montees spirales",
+                        "animateur": "Sindy Looper",
+                        "url": "https://rcv99.org/emissions/tournee-generale-actu-des-soirees-electro-et-djs-72",
+                        "image": {}
+                    },
+                    {
+                        "heure": "20:30",
+                        "titre": "MY FAVOURITE EVERYTHING",
+                        "description": "Vinyl Lovers & Underground Fun",
+                        "animateur": {},
+                        "url": "https://rcv99.org/emissions/my-favourite-everything-vinyl-mix-indie-oldies-and-rarities-98",
+                        "image": {}
+                    },
+                    {
+                        "heure": "22:30",
+                        "titre": "PLAY ME BACK",
+                        "description": "Retro House, Electro, Techno",
+                        "animateur": "DJ Booky",
+                        "url": "https://rcv99.org/emissions/play-me-back-retro-techno-house-vinyl-mix-67",
+                        "image": {}
+                    },
+                    {
+                        "heure": "00:00",
+                        "titre": "AUHUITIEME",
+                        "description": "Tech/house/funk/newwave/electro/rock",
+                        "animateur": "ECLPET",
+                        "url": "https://rcv99.org/emissions/au-huitieme-electro-techno-house-new-wave-funk-avec-eclept-122",
+                        "image": {}
+                    },
+                    {
+                        "heure": "01:00",
+                        "titre": "LIQUID BASSROOM",
+                        "description": "Sexy, Groovy, Funky, Liquid Drum amp; Bass",
+                        "animateur": "Diagg",
+                        "url": "https://rcv99.org/emissions/liquid-bass-room-groovy-drum-bass-by-diagg-103",
+                        "image": {}
+                    },
+                    {
+                        "heure": "02:00",
+                        "titre": "ENTER SANDMAN",
+                        "description": "Playlist pour noctambules",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    }
+                ]
+            },
+            {
+                "-nom": "Dimanche",
+                "emission": [
+                    {
+                        "heure": "07:00",
+                        "titre": "MORNING GLORY",
+                        "description": "Playlist Folk, Rock Pop, Soul...",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "10:30",
+                        "titre": "PROPAGANDE MUSICALE",
+                        "description": "L'emission qui decloisonne la musique et les esprits",
+                        "animateur": {},
+                        "url": "https://rcv99.org/emissions/propagande-musicale-l-emission-qui-decloisonne-la-musique-et-les-esprits-113",
+                        "image": {}
+                    },
+                    {
+                        "heure": "11:00",
+                        "titre": "RADAR CULTURE",
+                        "description": "Actu culture et musique avec Korrea, Audrey, Olivier et leurs invités",
+                        "animateur": "Korrea, Audrey & Olivier",
+                        "url": "https://rcv99.org/emissions/radar-culture-culture-musique-societe-et-bonne-humeur-125",
+                        "image": {}
+                    },
+                    {
+                        "heure": "12:00",
+                        "titre": "PATTES DE VELOURS",
+                        "description": "Playlists thematiques",
+                        "animateur": "Petit Pierre",
+                        "url": "https://rcv99.org/emissions/pattes-de-velours-soul-rock-funk-new-wave-punk-111",
+                        "image": {}
+                    },
+                    {
+                        "heure": "13:00",
+                        "titre": "CHRONIQUE LIVRE",
+                        "description": "La chronique livre de RCV99",
+                        "animateur": "Olivier",
+                        "url": "https://rcv99.org/emissions/chronique-livre-avec-olivier-31",
+                        "image": {}
+                    },
+                    {
+                        "heure": "13:03",
+                        "titre": "DIG DIG DIGGERS",
+                        "description": "L'émission musicale des radios FERAROCK",
+                        "animateur": {},
+                        "url": "https://rcv99.org/emissions/reportages-regionaux-reportages-regionaux-des-radios-de-la-franf-40",
+                        "image": {}
+                    },
+                    {
+                        "heure": "14:00",
+                        "titre": "L'AGE DU DIESEL",
+                        "description": "un theme, un mix...  (Une émission de SOL FM à Lyon)",
+                        "animateur": "Joey Perfecto",
+                        "url": "https://rcv99.org/emissions/l-age-du-diesel-mix-thematiques-115",
+                        "image": {}
+                    },
+                    {
+                        "heure": "15:00",
+                        "titre": "LES Z'ENTONNOIRS",
+                        "description": "Talk Show actu & musiques par des patients et infirmiers en psychiatrie a Roubaix",
+                        "animateur": {},
+                        "url": "https://rcv99.org/emissions/les-z-entonnoirs-actu-chroniques-41",
+                        "image": {}
+                    },
+                    {
+                        "heure": "16:00",
+                        "titre": "CHRONIQUE LIVRE",
+                        "description": "La chronique livre de RCV99",
+                        "animateur": "Olivier",
+                        "url": "https://rcv99.org/emissions/chronique-livre-avec-olivier-31",
+                        "image": {}
+                    },
+                    {
+                        "heure": "16:05",
+                        "titre": "RCV IN FRENCH",
+                        "description": "Sélection francophone (Belles Oreilles)",
+                        "animateur": "Patrick ",
+                        "url": "https://rcv99.org/emissions/rcv-in-french-selection-francophone-69",
+                        "image": {}
+                    },
+                    {
+                        "heure": "16:30",
+                        "titre": "DE LA LUMIERE AU GRENIER",
+                        "description": "Tonton JC depoussiere ses Vinyles, CD et Cassettes venus des annees 60, 70, 80's et plus si affinite.",
+                        "animateur": "Tonton JC",
+                        "url": "https://rcv99.org/emissions/de-la-lumiere-au-grenier-vintage-sound-rock-culture-112",
+                        "image": {}
+                    },
+                    {
+                        "heure": "17:30",
+                        "titre": "ROCKEZ BELLES OREILLES (R.B.O.)",
+                        "description": "Roots & Roll music (Belles Oreilles)",
+                        "animateur": "Patrick ",
+                        "url": "https://rcv99.org/emissions/rockez-belles-oreilles-r-b-o-roots-n-roll-music-52",
+                        "image": {}
+                    },
+                    {
+                        "heure": "19:00",
+                        "titre": "BAM BALAM",
+                        "description": "Nouveautes et re-editions Pop & Rock",
+                        "animateur": "Papy Bam",
+                        "url": "https://rcv99.org/emissions/bam-balam-nouveautes-re-editions-rock-pop-53",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 1eme et 3eme Dimanche du mois",
+                        "heure": "20:30",
+                        "titre": "SPIRIT IN THE NIGHT",
+                        "description": "Post Rock & Indie",
+                        "animateur": "Fred et Eric",
+                        "url": "https://rcv99.org/emissions/spirit-in-the-night-post-rock-indie-18",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 2eme et 4eme Dimanche du mois",
+                        "heure": "20:30",
+                        "titre": "X-WAVE",
+                        "description": "New wave, Cold wave, Indus",
+                        "animateur": "Dageist",
+                        "url": "https://rcv99.org/emissions/x-wave-new-wave-cold-wave-indus-82",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 1eme et 3eme Dimanche du mois",
+                        "heure": "22:30",
+                        "titre": "PLAYGROUND",
+                        "description": "L'actualité indie rock/pop/folk",
+                        "animateur": "Phil Indie",
+                        "url": "https://rcv99.org/emissions/playground-nouveautes-indie-rock-58",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 2eme et 4eme Dimanche du mois",
+                        "heure": "22:30",
+                        "titre": "TRAPANEL",
+                        "description": "L'émission qui traite de la musique en long et en large",
+                        "animateur": "Seb Adam",
+                        "url": "https://rcv99.org/emissions/trapanel-musiques-lectures-interviews-anecdotes-104",
+                        "image": {}
+                    },
+                    {
+                        "-frequence": "le 1eme et 3eme Dimanche du mois",
+                        "heure": "23:00",
+                        "titre": "LE PLAN ET LE SON",
+                        "description": "Mara De Carva analyse un film d'auteur à travers l'image et la bande-son",
+                        "animateur": "Mara De Carva",
+                        "url": "https://rcv99.org/emissions/cinema-d-auteur-analyse-des-films-par-leur-image-et-leur-son-117",
+                        "image": {}
+                    },
+                    {
+                        "heure": "00:00",
+                        "titre": "ECLECTIK",
+                        "description": "Un Espace Musical pour nous faire les témoins du Passé du Présent et du Futur",
+                        "animateur": "haka hata",
+                        "url": {},
+                        "image": {}
+                    },
+                    {
+                        "heure": "01:00",
+                        "titre": "ENTER SANDMAN",
+                        "description": "Playlist pour noctambules",
+                        "animateur": {},
+                        "url": {},
+                        "image": {}
+                    }
+                ]
+            }
+        ]
+    }
+}
